@@ -6,33 +6,48 @@ header{
     font-size:50px;
 }
 
-main{
-    padding:10px;
-    font-size:medium;
-    
-}
 h2{
     font-size:large;
     text-align: center;
 }
-#twoelephant{
-    width:380px;
+
+.twoelephant{
+    max-width:700px;
+    margin: auto;
+}
+
+.twoelephant img{
+    max-width:100%;
+}
+
+.p1{
+    max-width: 700px;
+    margin:auto;
+}
+
+.elephant{
+    max-width:700px;
+    margin: auto;
+}
+
+.elephant img{
+    max-width: 100%;
+
 }
 footer{
     font-size:large;
     text-align: center;
 }
 
-@media(min-width:768px){
-    main{
-        width: 700px;
-        margin:auto;
-        font-size: larger;
-    }
+@media(min-width: 768px){
+    
     header{
-        font-size:100px ;
+        font-size: 100px ;
         text-align: center;
     }
+
+    
+
     h2{
         font-size: xx-large;
         text-align: center;
@@ -43,9 +58,31 @@ footer{
     }
 }
 
-@media(min-width:400px){
-    #twoelephant{
-        width:900px;
+@media(min-width: 375px){
+    .twoelephant{
+        max-width:350px;
+        margin: auto;
     }
+    
+    .twoelephant img{
+        max-width:95%;
+        margin: auto;
+    }
+
+    .p1{
+        max-width: 350px;
+        margin:auto;
+    }
+
+    .elephant{
+        max-width:350px;
+        margin: auto;
+    }
+    
+    .elephant img{
+        max-width: 95%;
+        margin: auto;
+    }
+
 }
 
