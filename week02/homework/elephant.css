@@ -8,16 +8,34 @@ header{
 
 main{
     padding:10px;
+    font-size:medium;
     
+}
+h2{
+    font-size:large;
+    text-align: center;
+}
+footer{
+    font-size:large;
+    text-align: center;
 }
 
 @media(min-width:768px){
     main{
         width: 700px;
         margin:auto;
+        font-size: larger;
     }
     header{
         font-size:100px ;
+        text-align: center;
+    }
+    h2{
+        font-size: xx-large;
+        text-align: center;
+    }
+    footer{
+        font-size:xx-large;
         text-align: center;
     }
 }
