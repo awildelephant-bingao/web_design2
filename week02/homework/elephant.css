@@ -15,6 +15,9 @@ h2{
     font-size:large;
     text-align: center;
 }
+#twoelephant{
+    width:380px;
+}
 footer{
     font-size:large;
     text-align: center;
@@ -37,6 +40,12 @@ footer{
     footer{
         font-size:xx-large;
         text-align: center;
+    }
+}
+
+@media(min-width:400px){
+    #twoelephant{
+        width:900px;
     }
 }
 
