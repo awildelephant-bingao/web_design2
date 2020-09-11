@@ -5,33 +5,22 @@ header{
     text-align: center;
     font-size:50px;
 }
+main{
+    padding:10px;
+}
 
 h2{
     font-size:large;
     text-align: center;
 }
 
-.twoelephant{
-    max-width:700px;
-    margin: auto;
-}
 
-.twoelephant img{
-    max-width:100%;
-}
 
 .p1{
     max-width: 700px;
     margin:auto;
 }
 
-.elephant{
-    max-width:700px;
-    margin: auto;
-}
-
-.elephant img{
-    max-width: 100%;
 
 }
 footer{
