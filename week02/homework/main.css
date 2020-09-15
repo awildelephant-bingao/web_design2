@@ -1,77 +1,141 @@
 body {
-    margin:0px;
-}
-header{
-    text-align: center;
-    font-size:50px;
-}
-main{
-    padding:10px;
+    margin: 0px;
 }
 
-h2{
-    font-size:large;
+header {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
     text-align: center;
 }
 
-
-
-.p1{
-    max-width: 700px;
-    margin:auto;
+.p1 {
+    max-width: 350px;
+    margin: auto;
 }
 
-
+.twoelephant {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
-footer{
-    font-size:large;
+
+.twoelephant img {
+    max-width: 100%;
+}
+
+.p1 {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elephant {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elephant img {
+    max-width: 100%;
+}
+
+footer {
+    font-size: 20px;
     text-align: center;
+    margin: 20px;
 }
 
-@media(min-width: 768px){
-    
-    header{
-        font-size: 100px ;
+
+@media(min-width: 768px) {
+
+    header {
+        font-size: 60px;
         text-align: center;
     }
 
-    
 
-    h2{
-        font-size: xx-large;
+
+    h2 {
+        font-size: 40px;
         text-align: center;
+        margin-top: 5px;
     }
-    footer{
-        font-size:xx-large;
+
+    .twoelephant {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .twoelephant img {
+        max-width: 100%;
+        margin: auto;
+
+    }
+
+    .p1 {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .elephant {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .elephant img {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 20px;
         text-align: center;
-    }
-}
-
-@media(min-width: 375px){
-    .twoelephant{
-        max-width:350px;
-        margin: auto;
-    }
-    
-    .twoelephant img{
-        max-width:95%;
-        margin: auto;
+        margin: 43px;
     }
 
-    .p1{
-        max-width: 350px;
-        margin:auto;
-    }
 
-    .elephant{
-        max-width:350px;
-        margin: auto;
-    }
-    
-    .elephant img{
-        max-width: 95%;
-        margin: auto;
-    }
+    @media(min-width: 1200px) {
 
-}
+        header {
+            font-size: 100px;
+            text-align: center;
+        }
 
+        h2 {
+            font-size: 60px;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+
+        .twoelephant {
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .twoelephant img {
+            max-width: 100%;
+        }
+
+        .p1 {
+            max-width: 700px;
+        }
+
+        .elephant {
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .elephant img {
+            max-width: 100%;
+        }
+    }
