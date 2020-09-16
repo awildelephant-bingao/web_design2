@@ -7,18 +7,16 @@ header {
     font-size: 50px;
 }
 
+main{
+    padding: 10px;
+}
+
 h2 {
     font-size: 30px;
     text-align: center;
 }
 
-.p1 {
-    max-width: 350px;
-    margin: auto;
-}
-
 .twoelephant {
-    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,13 +26,11 @@ h2 {
 }
 
 .p1 {
-    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .elephant {
-    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,8 +63,6 @@ footer {
 
     .twoelephant {
         max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .twoelephant img {
@@ -85,14 +79,8 @@ footer {
 
     .elephant {
         max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
-    .elephant img {
-        max-width: 100%;
-        margin: auto;
-    }
 
     footer {
         font-size: 20px;
