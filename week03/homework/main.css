@@ -7,18 +7,23 @@ header {
 }
 
 img.nav-logo {
-    max-width: 20%;
-    padding: 10px;
+    max-width: 100%;
+margin: 20px;
+width: 50px;
 }
 
 img.toggle-img {
-    width:50px;
-    margin:15px;
-    float: right;
+    max-width: 100%;
+margin: 20px;
+width: 50px;
 }
 
 input#Toggle {
     display: none;
+}
+
+label[for=Toggle]{
+    Float: right;
 }
 
 input#Toggle:checked + ul {
@@ -29,13 +34,13 @@ input#Toggle:checked + ul {
 nav ul{
     list-style: none;
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
     display: none;
 }
 
 nav ul li {
     border-bottom: 1px solid black;
-    margin:15px;
+    margin:20px;
 }
 
 nav ul li:last-child {
@@ -48,4 +53,23 @@ nav ul a {
     text-transform: uppercase;
     font-size: 20px;
     
+}
+
+@media(min-width: 768px){
+    label[for="Toggle"]{
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        float: right;
+        padding: 0px;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        display: inline-block;
+        padding: 10px 0px;
+    
+    }
 }
