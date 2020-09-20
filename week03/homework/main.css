@@ -55,6 +55,28 @@ nav ul a {
     
 }
 
+main {
+    margin: 10Px;
+}
+
+h2{
+    margin:10px;
+    text-align: center;
+}
+
+.elephantface img{
+    max-width: 100%;
+
+}
+
+.walkingelephant img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
 @media(min-width: 768px){
     label[for="Toggle"]{
         display: none;
@@ -69,7 +91,46 @@ nav ul a {
     nav ul li {
         border-bottom: none;
         display: inline-block;
-        padding: 10px 0px;
+        padding: 20px 0px;
     
     }
+
+    h2{
+        font-size:50px;
+    }
+
+    .p1{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:1200px) {
+   
+    .elephantface {
+       max-width:1000px;
+       margin-left:auto;
+       margin-right:auto;
+   }
+
+   .p1 {
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+   }
+
+   .walkingelephant {
+        max-width:1000px;
+         margin-left:auto;
+         margin-right:auto;
+   }
+
+   img.nav-logo {
+       width: 70px;
+   }
+
+   nav ul li {
+       margin: 25px;
+   }
+
+
 }
