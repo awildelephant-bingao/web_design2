@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: pink;
+}
+
+img.nav-logo {
+    max-width: 100%;
+margin: 20px;
+width: 50px;
+}
+
+img.toggle-img {
+    max-width: 100%;
+margin: 20px;
+width: 50px;
+}
+
+input#Toggle {
+    display: none;
+}
+
+label[for=Toggle]{
+    Float: right;
+}
+
+input#Toggle:checked + ul {
+    display:block;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    display: none;
+}
+
+nav ul li {
+    border-bottom: 1px solid black;
+    margin:20px;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul a {
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+main {
+    margin: 10Px;
+}
+
+h2{
+    margin:10px;
+    text-align: center;
+}
+
+
+.aherdofelephant img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    label[for="Toggle"]{
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        float: right;
+        padding: 0px;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        display: inline-block;
+        padding: 20px 0px;
+    
+    }
+
+    h2{
+        font-size:50px;
+        }
+    }
+
+    @media(min-width:1200px) {
+   
+       
+    
+       .p1 {
+        max-width:1000px;
+        margin-left:auto;
+        margin-right:auto;
+       }
+    
+       .aherdofelephant {
+            max-width:1000px;
+             margin-left:auto;
+             margin-right:auto;
+       }
+    
+       img.nav-logo {
+           width: 70px;
+       }
+    
+       nav ul li {
+           margin: 25px;
+       }
+    }
