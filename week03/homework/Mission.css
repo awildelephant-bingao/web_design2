@@ -1,5 +1,5 @@
 body {
-    margin: 10px;
+    margin:0px;
 }
 
 header {
@@ -8,15 +8,15 @@ header {
 
 img.nav-logo {
     max-width: 100%;
-    width: 40px;
-    margin: 10px;
+    width: 50px;
+    margin: 20px;
 
 }
 
 img.toggle-img {
     max-width: 100%;
-    width: 40px;
-    margin: 10px;
+    width: 50px;
+    margin: 20px;
 }
 
 input#Toggle {
@@ -33,13 +33,14 @@ input#Toggle:checked+ul {
 
 nav ul {
     list-style: none;
-    padding: 10px;
     margin: 0px;
+    padding: 10px;
     display: none;
 }
 
 nav ul li {
     border-bottom: 1px solid black;
+    margin:20px;
 
 }
 
@@ -52,6 +53,11 @@ nav ul a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
+}
+
+main { 
+    margin:10px;
+
 }
 
 .elephantrescue img {
@@ -71,12 +77,13 @@ footer {
     nav ul {
         display: block;
         float: right;
+        padding:0px;
     }
 
     nav ul li {
         display: inline-block;
         border-bottom: none;
-        padding: 10px;
+        padding: 20px 0px;
     }
 
     h2 {
