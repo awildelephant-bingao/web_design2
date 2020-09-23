@@ -6,6 +6,21 @@ header {
     background-color: pink;
 }
 
+h2{
+    margin:10px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.p1 {
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+}
+
 img.nav-logo {
     max-width: 100%;
 margin: 20px;
@@ -14,8 +29,8 @@ width: 50px;
 
 img.toggle-img {
     max-width: 100%;
-margin: 20px;
-width: 50px;
+margin: 30px;
+width: 40px;
 }
 
 input#Toggle {
@@ -36,15 +51,21 @@ nav ul{
     margin: 0px;
     padding: 10px;
     display: none;
+    position: fixed;
+    background-color: pink;
+    width: 100%;
+
 }
 
 nav ul li {
     border-bottom: 1px solid black;
     margin:20px;
+    padding-bottom: 20px;
 }
 
 nav ul li:last-child {
     border-bottom: none;
+    padding-bottom: 0px;
 }
 
 nav ul a {
@@ -95,13 +116,7 @@ footer {
     
     }
 
-    h2{
-        font-size:50px;
-    }
-
-    .p1{
-        font-size: 20px;
-    }
+  
 }
 
 @media(min-width:1200px) {

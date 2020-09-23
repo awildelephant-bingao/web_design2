@@ -6,6 +6,21 @@ header {
     background-color: lightblue;
 }
 
+h2{
+    margin:10px;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.p1 {
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+}
+
 img.nav-logo {
     max-width: 100%;
     width: 50px;
@@ -15,8 +30,8 @@ img.nav-logo {
 
 img.toggle-img {
     max-width: 100%;
-    width: 50px;
-    margin: 20px;
+margin: 30px;
+width: 40px;
 }
 
 input#Toggle {
