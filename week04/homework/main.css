@@ -4,6 +4,9 @@
 body {
     margin:0px;
 }
+nav {
+    padding: 10px;
+}
 
 img {
     max-width:100%;
@@ -15,3 +18,45 @@ ul {
 
 }
 
+footer {
+    text-align: center;
+}
+
+
+
+@media(min-width: 768px) {
+
+    .flex-container {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+    .elephant1 {
+        max-width: 30%;
+        
+    }
+
+    .elephant2 {
+        max-width: 30%;
+        
+    }
+    
+    .elephant3 {
+        max-width: 30%;
+        
+    }
+    
+    .elephant4 {
+        max-width: 60%;
+        
+    }
+    
+    .elephant5 {
+        max-width: 30%;
+        
+    }
+}
