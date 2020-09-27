@@ -21,3 +21,10 @@
 .purple-tx {
     color: rgb(226, 194, 255);
 }
+
+@media(min-width:768px){
+    .purple-tx {
+        color:orange ;
+
+    }
+}
