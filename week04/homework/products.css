@@ -1,0 +1,39 @@
+@media(min-width:768px){
+    .products-container {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    
+    .products1 {
+        max-width:30%;
+        height:200px;
+    }
+
+    .products2 {
+        max-width:30%;
+        height:200px;
+    }
+
+    .products3 {
+        max-width:30%;
+        height:200px;
+    }
+
+    .products4 {
+        max-width:60%;
+        height: 400px;
+        margin:10px;
+    }
+
+    .products5 {
+        max-width:30%;
+        height:200px;
+    }
+
+
+}
