@@ -2,6 +2,7 @@
 @import url("navbar.css");
 @import url("products.css");
 @import url("FQA.css");
+@import url("contact.css")
 
 body {
     margin:0px;

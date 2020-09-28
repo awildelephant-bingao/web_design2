@@ -1,7 +1,10 @@
     .flex-FQA {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    max-width:1000px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
     #Questions {
@@ -14,13 +17,14 @@
 
 @media(min-width:768px){
     .FQA-container {
-        margin: 0px;
-        padding: 0px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:space-between;
         max-width:1000px;
+        margin-right: auto;
+        margin-left: auto;
+
     }
     
     .FQA1{
@@ -43,7 +47,25 @@
         max-width:33%
     }
 
+    .order-1 {
+        order:1
+    }
    
+    .order-2 {
+        order:2
+    }
+
+    .order-3 {
+        order:3
+    }
+
+    .order-4 {
+        order:4
+    }
+
+    .order-5 {
+        order:5
+    }
 
     
 }
