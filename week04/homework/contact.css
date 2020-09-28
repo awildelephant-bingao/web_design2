@@ -1,0 +1,50 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   
+}
+
+.contact-method {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+}
+
+.Facebook {
+    margin: 20px;
+}
+
+.Instagram {
+    margin: 20px;
+}
+
+.Twitter {
+    margin: 20px;
+}
+
+.Contact {
+    margin: 20px;
+}
+
+.Email {
+    margin: 20px;
+}
+
+@media(min-width:768px){
+    .contact-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .contact-method {
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+       flex-wrap: wrap;
+    }
+        
+}
