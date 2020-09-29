@@ -27,44 +27,32 @@ footer {
     margin: 20px;
 }
 
+.flex-container {
+    
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 @media(min-width: 768px) {
 
+
     .flex-container {
-        padding: 0;
-        margin: 0;
         display: flex;
-        flex-flow: wrap row;
+        flex-direction: row;
         justify-content: center;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .elephant1 {
-        max-width: 30%;
+        flex-wrap: wrap;
         
     }
 
-    .elephant2 {
-        max-width: 30%;
-        
+
+    .flex-container img {
+        flex-basis: 33.3333%;
     }
-    
-    .elephant3 {
-        max-width: 30%;
-        
-    }
-    
-    .elephant4 {
-        max-width: 60%;
-        
-    }
-    
-    .elephant5 {
-        max-width: 30%;
-        height:200px;
+
+    .elephant {
+        flex-basis: 66.6666%;
         
     }
 }
