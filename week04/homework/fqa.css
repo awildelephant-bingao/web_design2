@@ -1,77 +1,77 @@
     .FQA-container {
         display: flex;
         flex-direction: column;
+        padding: 20px;
 
-    
-}
 
-.flex-FQA {
-    flex-basis: 33.3333%;
-    text-align: center;
-}
+    }
+
     .questions {
-    margin-top:20px;
-}
-
-.inputbox {
-    width:200px;
-    height:50px;
-}
- .submitbutton {
-     margin-bottom: 20px;
-
- }
-
-
-
-@media(min-width:768px){
-    .FQA-container {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content:center;
-
-    }
-
-    .flex-FQA {
-        flex-basis: 33.3333%;
-        text-align: center;
-       
-    }
-    .FQA-container img {
-        flex-basis: 33.3333%;
-    }
-    .questions {
-        margin-top:50px;
-    }
-
-    .inputbox {
-        width:200px;
-        height:100px;
-    }
+        flex-direction: column;
+        margin: 60px;
     
-    
-    .order-large-1 {
-        order:1
-    }
-   
-    .order-large-2 {
-        order:2
     }
 
-    .order-large-3 {
-        order:3
-    }
+   .questions input [type="text"] {
+       width: 100%;
+       margin:auto;
+   }
 
-    .order-large-4 {
-        order:4
-    }
 
-    .order-large-0 {
-        order:0
+
+
+    @media(min-width:768px) {
+        .FQA-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .flex-FQA {
+            flex-basis: 33.3333%;
+            text-align: center;
+
+        }
+
+        .FQA-container img {
+            flex-basis: 33.3333%;
+        }
+
+        .questions {
+            margin-top: 50px;
+        }
+
+        .inputbox {
+            width: 200px;
+            height: 100px;
+        }
+
+
+        .order-large-1 {
+            order: 1
+        }
+
+        .order-large-2 {
+            order: 2
+        }
+
+        .order-large-3 {
+            order: 3
+        }
+
+        .order-large-4 {
+            order: 4
+        }
+
+        .order-large-0 {
+            order: 0
+        }
+
+        .order-large-6 {
+            order: 6;
+        }
+
     }
-    .order-large-6 {
-        order:6;
-    }
-    
-}

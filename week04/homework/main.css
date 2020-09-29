@@ -33,6 +33,11 @@ footer {
     flex-direction: column;
 }
 
+#elephant {
+    background-position: center;
+    height: 100vw;
+    background-size: cover;
+}
 
 
 @media(min-width: 768px) {
@@ -53,7 +58,9 @@ footer {
 
     #elephant {
         flex-basis: 66.6666%;
-        height:400px
+        background-position: center;
+        background-size: cover;
+        height: initial;
         
     }
 }
