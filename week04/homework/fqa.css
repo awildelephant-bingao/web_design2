@@ -1,11 +1,8 @@
-    .flex-FQA {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width:1000px;
-    margin-left: auto;
-    margin-right: auto;
+    .FQA-container {
+        display: flex;
+        flex-direction: column;
 
+    
 }
     #Questions {
     max-width: 100%;
@@ -15,57 +12,43 @@
     margin-bottom:20px;
 }
 
+
+
 @media(min-width:768px){
     .FQA-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content:space-between;
-        max-width:1000px;
-        margin-right: auto;
-        margin-left: auto;
 
+    }
+
+    .FQA-container img {
+        flex-basis: 33.3333%;
     }
     
-    .FQA1{
-        max-width:33%
-    }
-
-    .FQA2{
-        max-width:33%
-    }
-
-    .FQA3{
-        max-width:33%
-    }
-
-    .FQA4{
-        max-width:33%
-    }
-
-    .FQA5{
-        max-width:33%
-    }
-
-    .order-1 {
+    
+    .order-large-1 {
         order:1
     }
    
-    .order-2 {
+    .order-large-2 {
         order:2
     }
 
-    .order-3 {
+    .order-large-3 {
         order:3
     }
 
-    .order-4 {
+    .order-large-4 {
         order:4
     }
 
-    .order-5 {
-        order:5
+    .order-large-0 {
+        order:0
     }
-
+    .order-large-6 {
+        order:6;
+    }
     
 }

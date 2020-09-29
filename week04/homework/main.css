@@ -51,8 +51,9 @@ footer {
         flex-basis: 33.3333%;
     }
 
-    .elephant {
+    #elephant {
         flex-basis: 66.6666%;
+        height:400px
         
     }
 }
