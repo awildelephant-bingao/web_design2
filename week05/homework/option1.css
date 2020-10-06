@@ -42,8 +42,7 @@
 
 .content-text img {
     background-position: center;
-    max-height: 200px;
-    max-width:200px;
+    max-width:100%;
     background-size: cover;
 }
 
