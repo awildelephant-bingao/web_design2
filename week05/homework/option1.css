@@ -3,7 +3,7 @@
 .grid-container {
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap:10px;
 }
@@ -12,96 +12,73 @@
     height:30px;
 }
 
-.main {
-    display: grid;
-    height: 50vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap:10px;
-
-}
-
 .grid-item:last-child{
     grid-column: 1/span 2;
 }
 
-.header-text{
-    font-size: 20px;
+.grid-item:nth-child(1){
+    grid-column: 1/span 3;
 }
 
-.content-text{
-    margin:5px;
-    
+.grid-item:nth-child(1) h1{
+    text-align: center;
+    margin:70px;
 }
 
-.footer-text {
-    font-size:10px;
-    text-align:center ;
-    margin:10px;
+.grid-item:nth-child(2) ul{
+    margin-top: 25px;
 }
 
-.content-text img {
-    background-position: center;
+.grid-item:nth-child(2) li {
+    margin:20px;
+}
+
+.grid-item:nth-child(3) {
+    grid-column: 2/span 2;
+    padding:10px;
+}
+
+.grid-item:nth-child(3) img{
     max-width:100%;
-    background-size: cover;
 }
 
-.side-bar-text li{
-    margin:10px;
+.grid-item:last-child{
+    grid-column: 1/span 3;
 }
+.grid-item:last-child p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom:5px;
+
+}
+
+
 
 @media(min-width:768px) {
     
-    .grid-container{
+    .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
-        height: 800px;
+        grid-template-rows: 1fr 1fr 1fr;
+         gap: 10px;
+         height:500px;
+
     }
 
     .grid-item:nth-child(1){
-        grid-column: 2/span 3;
+        grid-column: 2/span 2;
     }
 
-    .grid-item:nth-child(2){
-        grid-column: 1/span 3;
+    .grid-item:nth-child(3) {
+        grid-column: 2/span 2;
     }
 
     .grid-item:last-child {
         grid-column: 1/span 3;
     }
-
-    .main {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-    }
-
-    .content {
-        grid-column: 2/span 4;
-    }
-
+   
     .grid-container {
         width: 800px;
         margin: auto;
     }
-
-    .header-text{
-        font-size: 50px;
-        text-align: center;
-        margin: 60px;
-    }
-
-    .content-text{
-        margin: 10px;
-        text-align: left;
-        font-size: 20px;
-    }
-
-    .side-bar-text {
-        font-size: 20px;
-    }
-
-    .side-bar-text li{
-        margin:10px;
-    }
-
-   
 }
