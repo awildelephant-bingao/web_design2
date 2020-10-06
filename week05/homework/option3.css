@@ -28,40 +28,13 @@
     grid-column: 1/ span2;
 }
 
-.footer-text {
-    font-size:10px;
-    text-align:center ;
-    margin:10px;
-}
 
-.side-bar-2 p {
-    margin: 10px;
-
-}
-
-.content-text img {
-    background-position: center;
-    max-width:100%;
-    background-size: cover;
-}
 
   
 
 
  @media(min-width:768px){
-    .side-bar-2 {
-        grid-column: 1/ span 2 ;
-    } 
-
-    .header-text{
-        font-size: 50px;
-        text-align: center;
-        margin: 60px;
-    }
-
-    .side-bar-text li{
-        margin:10px;
-    }
+    
 
     .grid-container {
         width: 800px;
