@@ -1,0 +1,42 @@
+.blue-bg {
+    background-color: rgb(37, 142, 166);
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.green-bg {
+    background-color: rgb(84, 159, 147);
+}
+
+.pink-bg {
+    background-color: rgb(226, 177, 177);
+}
+
+.purple-bg {
+    background-color: rgb(226, 194, 255);
+}
+
+.ricewhite-bg {
+    background-color: rgb(245, 251, 239);
+}
+
+.white-tx{
+    color:white
+}
+
+.black-tx {
+    color: rgb(0,0,0)
+}
+
+.purple-tx {
+    color: rgb(226, 194, 255);
+}
+
+@media(min-width:768px){
+    .purple-tx {
+        color:orange ;
+
+    }
+}

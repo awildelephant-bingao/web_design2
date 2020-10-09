@@ -1,0 +1,81 @@
+@import url("reset.css");
+@import url("color.css");
+
+
+img.nav-logo {
+    max-width: 100%;
+margin: 20px;
+width: 50px;
+}
+
+img.toggle-img {
+    max-width: 100%;
+margin: 30px;
+width: 40px;
+}
+
+input#Toggle {
+    display: none;
+}
+
+label[for=Toggle]{
+    Float: right;
+}
+
+input#Toggle:checked + ul {
+    display:block;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+
+}
+
+nav ul li {
+    border-bottom: 1px solid white;
+    margin:20px;
+    padding-bottom: 20px;
+    
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+
+main{
+    width:100%;
+    padding:10px;
+}
+
+
+
+
+@media(min-width: 768px){
+    label[for="Toggle"]{
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        float: right;
+        padding: 0px;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        display: inline-block;
+        padding: 20px 0px;
+    
+    }
+}
+
+
