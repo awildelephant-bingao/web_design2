@@ -52,8 +52,54 @@ nav ul li:last-child {
 
 
 main{
-    width:100%;
+    max-width:100%;
     padding:10px;
+}
+
+
+.aboutpage-image{
+    width:100%;
+}
+.aboutpage-image img{
+    width:100%;
+    margin:auto;
+}
+
+.aboutvibes p {
+    text-align: justify;
+}
+
+.join-now {
+    text-align: center;
+    padding-top:30px;
+}
+
+.join-now input {
+    background-color: white;
+    padding:20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-part1{
+    max-width:100%;
+}
+
+.footer-part1 p{
+    width:280px;
+    text-align:justify;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20px;
+    margin-bottom:20px;
+
+
+}
+
+.footer-part2 ul {
+    list-style: none;
+    padding-left:0px;
+    text-align: center;
+    font-size:12px;
 }
 
 
@@ -74,7 +120,19 @@ main{
         border-bottom: none;
         display: inline-block;
         padding: 20px 0px;
-    
+
+    }
+
+    .flex-container {
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
