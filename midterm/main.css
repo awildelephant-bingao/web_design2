@@ -2,6 +2,10 @@
 @import url("color.css");
 
 
+.flex-container {
+    font: 15px Arial, sans-serif;
+}
+
 img.nav-logo {
     max-width: 100%;
 margin: 20px;
@@ -72,11 +76,12 @@ main{
 .join-now {
     text-align: center;
     padding-top:30px;
+
 }
 
 .join-now input {
     background-color: white;
-    padding:20px;
+    padding:10px 40px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -102,7 +107,45 @@ main{
     font-size:12px;
 }
 
+.pricing-note{
+    width:280px;
+    margin: auto;
+}
+.pricing-note p{
+    font-size: 12px;
+    text-align: justify;
+}
 
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+}
+
+.grid-item p {
+    text-align: center;
+    padding:5px;
+    
+}
+
+.grid-item form {
+    text-align: center;
+    margin:10px;
+}
+
+.packageprice {
+    font-size: 30px;
+}
+.packageexpeiration {
+    font-size:12px;
+}
 
 
 @media(min-width: 768px){
@@ -147,7 +190,32 @@ main{
         width:800px;
     }
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+        height: 500px;
+    }
    
+    .grid-item form input{
+        font-size: 20px;
+    }
+
+    .pricing-note{
+        width:500px;
+        margin: auto;
+    }
+    .pricing-note p{
+        font-size: 10px;
+        text-align: justify;
+        margin-top:40px;
+    }
+    
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
 
 }
 
