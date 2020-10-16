@@ -1,0 +1,85 @@
+@import url("reset.css");
+@import url("color.css");
+
+.flex-container {
+    font: 15px Arial, sans-serif;
+}
+
+img.nav-logo {
+    max-width: 100%;
+margin: 20px;
+width: 50px;
+}
+
+img.toggle-img {
+    max-width: 100%;
+margin: 30px;
+width: 40px;
+}
+
+input#Toggle {
+    display: none;
+}
+
+label[for=Toggle]{
+    Float: right;
+}
+
+input#Toggle:checked + ul {
+    display:block;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+
+}
+
+nav ul li {
+    border-bottom: 1px solid white;
+    margin:20px;
+    padding-bottom: 20px;
+    
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+
+main{
+    max-width:100%;
+    padding:10px;
+}
+.classschedule {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 100vh;
+    list-style: none;
+    text-align: center;
+    padding-left:0px;
+}
+
+.grid-container li{
+    padding:10px;
+}
+
+.footer-part2 ul {
+    list-style: none;
+    padding-left:0px;
+    text-align: center;
+    font-size:12px;
+}
