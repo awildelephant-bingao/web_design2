@@ -28,7 +28,7 @@ label[for=Toggle]{
 input#Toggle:checked + ul {
     display:block;
 
-}
+}   
 
 nav ul{
     list-style: none;
@@ -53,6 +53,9 @@ nav ul li:last-child {
     padding-bottom: 0px;
 }
 
+.classimage img {
+    width:100%;
+}
 
 main{
     max-width:100%;
