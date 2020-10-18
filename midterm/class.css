@@ -86,3 +86,36 @@ main{
     text-align: center;
     font-size:12px;
 }
+
+@media(min-width: 768px){
+    label[for="Toggle"]{
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        float: right;
+        padding: 0px;
+        background-color: initial;
+        position: initial;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        display: inline-block;
+        padding: 20px 0px;
+
+    }
+
+    .flex-container {
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .flex{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
