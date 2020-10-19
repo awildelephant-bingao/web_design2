@@ -72,6 +72,7 @@ main{
 
 .aboutvibes{
     margin:auto;
+    padding: 20px;
 }
 
 .aboutvibes p {
@@ -151,6 +152,7 @@ h1{
 
 .selectbutton {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .grid-item p {
