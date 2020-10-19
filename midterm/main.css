@@ -76,6 +76,9 @@ main{
 
 .aboutvibes p {
     text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    line-height: 25px;
 }
 
 .join-now {
@@ -101,6 +104,7 @@ main{
     margin-right:auto;
     margin-top: 20px;
     margin-bottom:20px;
+    line-height: 25px;
 
 
 }
