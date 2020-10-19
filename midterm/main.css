@@ -59,6 +59,8 @@ nav ul li img {
 main{
     max-width:100%;
     padding:10px;
+    background-color: black;
+    color: white;
 }
 
 

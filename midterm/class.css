@@ -72,9 +72,16 @@ nav ul li img {
 main{
     max-width:100%;
     padding:10px;
+    background-color: black;
+    color: white;
 }
 .classschedule {
     text-align: center;
+}
+
+.categories {
+    max-width:800px;
+    margin: auto;
 }
 
 .grid-container {
