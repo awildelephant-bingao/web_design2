@@ -3,11 +3,14 @@
 }
 
 .dancegif {
-    width: 100%;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    display:none;
 }
 
+.mobile_dancegif {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 .content {
     position: fixed;
     bottom: 0;
@@ -40,4 +43,17 @@
   #myBtn:hover {
     background: #ddd;
     color: black;
+  }
+
+  @media(min-width:786px){
+    .dancegif {
+      display:initial;
+      width: 100%;
+      margin-top: 80px;
+      margin-bottom: 80px;
+  }
+
+  .mobile_dancegif {
+    display:none;
+  }
   }
