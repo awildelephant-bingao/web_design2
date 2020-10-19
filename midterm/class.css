@@ -6,15 +6,14 @@
 }
 
 img.nav-logo {
-    max-width: 100%;
-margin: 20px;
-width: 60px;
+    margin-left: 20px;
+    width: 50px;
 }
 
 img.toggle-img {
-    max-width: 100%;
-margin: 30px;
-width: 40px;
+    margin-right: 20px;
+    width: 40px;
+    margin-top: 23px;
 }
 
 input#Toggle {
@@ -49,8 +48,9 @@ nav ul li {
 }
 
 nav ul li img {
-    max-width: 100%;
     width: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 
 .yogaclass img {
@@ -124,6 +124,11 @@ footer {
         display: none;
     }
 
+    img.nav-logo {
+        margin-left: 20px;
+        width: 90px;
+    }
+
     nav ul {
         display: block;
         float: right;
@@ -135,8 +140,13 @@ footer {
     nav ul li {
         border-bottom: none;
         display: inline-block;
-        padding: 20px 0px;
+        padding-top: 30px;
 
+    }
+
+    nav ul li img {
+        width: 40px;
+        margin-top: -3px;
     }
 
     .flex-container {
