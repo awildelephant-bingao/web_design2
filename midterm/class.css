@@ -53,9 +53,21 @@ nav ul li:last-child {
     padding-bottom: 0px;
 }
 
-.classimage img {
+.yogaclass img {
     width:100%;
 }
+
+.boxingclass img {
+    width:100%;
+    display: none;
+}
+
+.danceclass img {
+    width:100%;
+    display: none;
+}
+
+
 
 main{
     max-width:100%;
@@ -86,6 +98,26 @@ main{
     text-align: center;
     font-size:12px;
 }
+
+.grid-item button {
+    padding:10px;
+    font-size: 15px;
+    background-color:white;
+}
+
+footer {
+    background-color: black;
+    margin-top:80px;
+}
+
+.classfooter li{
+    list-style: none;
+    padding-left:0px;
+    text-align: center;
+    font-size:12px;
+}
+
+
 
 @media(min-width: 768px){
     label[for="Toggle"]{
@@ -119,5 +151,20 @@ main{
         justify-content: flex-end;
 
     }
+    
+    .boxingclass img{
+        display: inline-block;
+    }
+
+    .danceclass img {
+        display: inline-block;
+    }
+
+    .classschedulepage {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     
 }

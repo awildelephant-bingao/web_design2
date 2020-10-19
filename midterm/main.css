@@ -111,6 +111,17 @@ main{
     font-size:12px;
 }
 
+.pricingfooter {
+    background-color: black;
+    margin-top: 180px;
+}
+.pricingfooter li{
+    list-style: none;
+    padding-left:0px;
+    text-align: center;
+    font-size:12px;
+}
+
 .pricing-note{
     width:280px;
     margin: auto;
@@ -133,16 +144,22 @@ h1{
     height: 100vh;
 }
 
+.selectbutton {
+    text-align: center;
+}
+
 .grid-item p {
     text-align: center;
     padding:5px;
     
 }
 
-.grid-item form {
-    text-align: center;
-    margin:10px;
+.grid-item button {
+    padding:10px;
+    font-size: 15px;
+    background-color:white;
 }
+
 
 .packageprice {
     font-size: 30px;
@@ -150,6 +167,7 @@ h1{
 .packageexpeiration {
     font-size:12px;
 }
+
 
 
 @media(min-width: 768px){
