@@ -77,6 +77,7 @@ main{
 }
 .classschedule {
     text-align: center;
+    font-size: 50px;
 }
 
 .categories {
@@ -96,6 +97,24 @@ main{
 
 .grid-container li{
     padding:10px;
+}
+
+.grid-container h3 {
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.grid-container p {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.grid-container li button {
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 .footer-part2 ul {
@@ -155,6 +174,10 @@ main{
     nav ul li img {
         width: 40px;
         margin-top: -3px;
+    }
+
+    .classschedule{
+        font-size: 80px;
     }
 
     .flex-container {
