@@ -130,6 +130,10 @@ main {
     padding: 20px;
 }
 
+.footer-part2 li a {
+        color:whitesmoke;
+}
+
 .pricingfooter {
     background-color: black;
     padding-top: 80px;
@@ -145,6 +149,10 @@ main {
     padding-left: 0px;
     text-align: center;
     font-size: 12px;
+}
+
+.pricingfooter li a {
+    color:whitesmoke;
 }
 
 .pricing-note {
