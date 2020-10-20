@@ -144,6 +144,10 @@ main{
     font-size:12px;
 }
 
+.classfooter li a {
+    color:whitesmoke;
+}
+
 
 
 @media(min-width: 768px){
