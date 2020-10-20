@@ -89,7 +89,6 @@ main{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
-    height: 100vh;
     list-style: none;
     text-align: center;
     padding-left:0px;
@@ -106,15 +105,17 @@ main{
     font-size:12px;
 }
 
+.classfooter {
+    background-color: black;
+    padding-top:80px;
+    margin:0px;
+    padding:20px;
+}
+
 .grid-item button {
     padding:10px;
     font-size: 15px;
     background-color:white;
-}
-
-footer {
-    background-color: black;
-    margin-top:80px;
 }
 
 .classfooter li{
