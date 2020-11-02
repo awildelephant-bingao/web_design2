@@ -20,6 +20,11 @@
             height:400px;
             background-color: lightgray;
         }
+
+        #elephantFace {
+            display:none;
+        }
+
     </style>
 </head>
 
@@ -29,18 +34,33 @@
 
     <div id="myDiv"></div>
 
+    <button href="#" id="imageShow">Show image</button>
+    <img src="images/elephantface.jpg" id="elephantFace">
+
     <script>
         console.log("This is your page talking to you");
 
         let answer = prompt("what is your name?");
         console.log(answer);
-        document.getElementById("userName").innerText = answer; 
+
+        if(answer == null){
+            document.getElementById("userName").innerText = none;
+        }
+
+        else{
+            document.getElementById("userName").innerText = answer; 
+        }
 
         let bigDiv = document.getElementById("myDiv");
         let docHeading = document.getElementById("myHeading");
         let trigButton = document.getElementById("colorChange");
+        let imageButton = document.getElementById("imageShow");
+        let bigElephant = document.getElementById("elephantFace");
 
         console.log(trigButton);
+        console.log(imageButton);
+        console.log(bigElephant);
+        
 
         trigButton.addEventListener("click", function () {
             let userAnswer = confirm("Are you sure you want to do this?");
@@ -62,6 +82,14 @@
                 alert("No action will be taken!");
             }
 
+        });
+        
+        
+        imageButton.addEvenListener("click", function(){
+            confirm("Are you sure you want to do this?");
+    
+            
+            
         });
 
 
