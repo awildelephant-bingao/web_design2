@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+            font: 15px Arial, sans-serif;
+        }
+
+        img.nav-logo {
+            margin: 30px;
+            width: 100px;
+        }
+
+        img.toggle-img {
+            margin: 20px;
+            width: 80px;
+            margin-top: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0px;
+            padding: 10px;
+            display: none;
+            position: fixed;
+            background-color: darkcyan;
+            width: 100%;
+
+        }
+
+        nav ul li {
+            border-bottom: 1px solid white;
+            margin: 20px;
+            padding-bottom: 20px;
+            font-size: 30px;
+
+        }
+
+        nav {
+            background-color: darkcyan;
+        }
+
+        input#Toggle {
+            display: none;
+        }
+
+        label[for=Toggle] {
+            Float: right;
+        }
+
+        input#Toggle:checked+ul {
+            display: block;
+
+        }
+
+        #imagesContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 100px;
+        }
+
+        #imagesContainer img {
+            width: 500px;
+        }
+
+        #bigImage {
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="flex-container">
+        <a href="index.html"><img src="images/logo.png" alt="our logo" class="nav-logo"></a>
+
+        <label for="Toggle">
+            <img src="images/toggle.png" alt="menu toggle" class="toggle-img">
+        </label>
+        <input type="checkbox" id="Toggle">
+
+        <ul class="flex">
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="class.html">Class</a></li>
+            <li> <a href="pricing.html">Pricing</a></li>
+        </ul>
+    </nav>
+
+    <div id="imagesContainer">
+
+        <a href="" id="elephant1"><img src="images/elephant1.jpg" alt=" Fisrt elephant"></a>
+        <a href="" id="elephant2"><img src="images/elephant2.jpg" alt=" Second elephant"></a>
+        <a href="" id="elephant3"><img src="images/elephant3.jpg" alt=" Third elephant"></a>
+        <a href="" id="elephant4"><img src="images/elephant4.jpg" alt=" Fourth elephant"></a>
+
+    </div>
+
+    <div id="bigImage">
+        <img src="images/elephant1.jpg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
