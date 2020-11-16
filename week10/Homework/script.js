@@ -1,3 +1,21 @@
+let toggleIMG = document.getElementById("toggle-img")
+
+let swaptoggleIMG = function() {
+    if(toggleIMG.alt === "menutoggle"){
+        toggleIMG.src = "images/closetoogle.png";
+        toggleIMG.alt = "closemenutoggle";
+    }
+    else{
+        toggleIMG.src = "images/toggle.png";
+        toggleIMG.alt === "menutoggle";
+         
+    }
+}
+
+toggleIMG.addEvenListener("click", swaptoggleIMG);
+
+
+
 let firstElephantIMG = document.getElementById("elephant1");
 let secondElephantIMG = document.getElementById("elephant2");
 let thirdElephantIMG = document.getElementById("elephant3");
