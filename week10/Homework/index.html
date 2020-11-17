@@ -41,6 +41,7 @@
         }
 
         nav {
+            margin:0px;
             background-color: darkcyan;
         }
 
@@ -70,9 +71,10 @@
             width: 500px;
         }
 
-        #bigImage {
+        .bottomimage {
             text-align: center;
             margin-top: 100px;
+
         }
     </style>
 </head>
@@ -83,7 +85,7 @@
         <a href="index.html"><img src="images/logo.png" alt="our logo" class="nav-logo"></a>
 
         <label for="Toggle">
-            <img src="images/toggle.png" alt="menu toggle" id="toggle-img">
+            <img src="images/toggle.png" alt="menutoggle" id="toggle-img">
         </label>
         <input type="checkbox" id="Toggle">
 
@@ -96,15 +98,15 @@
 
     <div id="imagesContainer">
 
-        <a href=""><img src="images/elephant1.jpg" id="elephant1" alt=" First elephant"></a>
-        <a href=""><img src="images/elephant2.jpg" id="elephant2" alt=" Second elephant"></a>
-        <a href=""><img src="images/elephant3.jpg" id="elephant3" alt=" Third elephant"></a>
-        <a href=""><img src="images/elephant4.jpg" id="elephant4" alt=" Fourth elephant"></a>
+       <img src="images/elephant1.jpg" id="elephant1" alt=" First elephant">
+        <img src="images/elephant2.jpg" id="elephant2" alt=" Second elephant">
+        <img src="images/elephant3.jpg" id="elephant3" alt=" Third elephant">
+        <img src="images/elephant4.jpg" id="elephant4" alt=" Fourth elephant">
 
     </div>
 
-    <div id="bigImage">
-        <img src="images/elephant1.jpg" alt="First elephant">
+    <div class="bottomimage">
+        <img id="bigImage" src="images/elephant1.jpg" alt="First elephant">
     </div>
 
     <script src="script.js"></script>

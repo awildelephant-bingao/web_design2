@@ -1,72 +1,54 @@
 let toggleIMG = document.getElementById("toggle-img")
 
 let swaptoggleIMG = function() {
+    console.log("toggleIMG");
     if(toggleIMG.alt === "menutoggle"){
-        toggleIMG.src = "images/closetoogle.png";
+        toggleIMG.src = "images/closetoggle.png";
         toggleIMG.alt = "closemenutoggle";
     }
     else{
         toggleIMG.src = "images/toggle.png";
-        toggleIMG.alt === "menutoggle";
+        toggleIMG.alt = "menutoggle";
          
     }
 }
 
-toggleIMG.addEvenListener("click", swaptoggleIMG);
+toggleIMG.addEventListener("click", swaptoggleIMG);
 
 
 
 let firstElephantIMG = document.getElementById("elephant1");
 let secondElephantIMG = document.getElementById("elephant2");
 let thirdElephantIMG = document.getElementById("elephant3");
-let fouthElephantIMG = document.getElementById("elephant4");
+let fourthElephantIMG = document.getElementById("elephant4");
 let bigIMG = document.getElementById("bigImage");
 
 
 let swapFirstElephant = function () {
-    if (bigIMG.alt === "First elephant") {
-        bigIMG.src = "images/elephant2.jpg";
-        bigIMG.alt = "Second elephant";
-    } else {
-        bigIMG.src = "images/elephant1.jpg" 
+    bigIMG.src = "images/elephant1.jpg";
         bigIMG.alt = "First elephant";
-
-    }
 }
 
 let swapSecondElephant = function () {
-    if (bigIMG.alt === "First elephant") {
-        bigIMG.src = "images/elephant3.jpg";
-        bigIMG.alt = "Third elephant";
-    } else {
-        bigIMG.src = "images/elephant1.jpg" 
-        bigIMG.alt = "First elephant";
-    }
+     console.log("secondIMG");
+        bigIMG.src = "images/elephant2.jpg";
+        bigIMG.alt = "Second elephant";
+   
 }
 
 let swapThirdElephant = function () {
-    if (bigIMG.alt === "First elephant") {
-        bigIMG.src = "images/elephant3.jpg";
+    bigIMG.src = "images/elephant3.jpg";
         bigIMG.alt = "Third elephant";
-    } else {
-        bigIMG.src = "images/elephant1.jpg" 
-        bigIMG.alt = "First elephant";
-    }
 }
 
 let swapFourthElephant = function () {
-    if (bigIMG.alt === "First elephant") {
-        bigIMG.src = "images/elephant4.jpg";
+    bigIMG.src = "images/elephant4.jpg";
         bigIMG.alt = "Fourth elephant";
-    } else {
-        bigIMG.src = "images/elephant1.jpg" 
-        bigIMG.alt = "First elephant";
-    }
 }
 
 
 
-firstElephantIMG.addEvenListener("click", swapFirstElephant);
-secondElephantIMG.addEvenListener("click", swapSecondElephant);
-thirdElephantIMG.addEvenListener("click", swapThirdElephant);
-fourthElephantIMG.addEvenListener("click", swapFourthElephant);
+firstElephantIMG.addEventListener("click", swapFirstElephant);
+secondElephantIMG.addEventListener("click", swapSecondElephant);
+thirdElephantIMG.addEventListener("click", swapThirdElephant);
+fourthElephantIMG.addEventListener("click", swapFourthElephant);
