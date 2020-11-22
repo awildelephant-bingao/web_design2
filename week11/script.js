@@ -1,8 +1,3 @@
-let field = document.getElementById("colorField");
-let colorBTN = document.getElementById("colorToggle");
-
-let toggleIMG = document.getElementById("quokkaIMG");
-let imageBTN = document.getElementById("imgToggle");
 
 let catSelect = document.getElementById("category");
 let subSelect = document.getElementById("subcategory");
@@ -22,14 +17,14 @@ let imageToggle = function(){
 }
 
 let categoryUpdate = function(){
-    let foodSubcats = ["coffee", "desserts", "cocktails", "muffins"];
-    let animSubcats = ["kittens", "puppies", "quokkas"];
-    let natureSubcats = ["forests", "mountains", "lakes"];
+    let elephantsSubcats = ["elephant1", "elephant2", "elephant3"];
+    let pandasSubcats = ["panda1", "panda2", "panda3"];
+    let giraffesSubcats = ["giraffe1", "giraffe2", "giraffe3"];
 
     subSelect.innerHTML = "";
 
-    if(catSelect.value === "food"){
-        console.log("food");
+    if(catSelect.value === "elephant"){
+        console.log("elephant");
         foodSubcats.forEach(function(elem){
             let opt = document.createElement("option");
             opt.value = elem;
@@ -37,8 +32,8 @@ let categoryUpdate = function(){
             subSelect.appendChild(opt);
         })
     }
-    else if(catSelect.value === "anim"){
-        console.log("animals");
+    else if(catSelect.value === "panda"){
+        console.log("panda");
         animSubcats.forEach(function(elem){
             let opt = document.createElement("option");
             opt.value = elem;
@@ -46,8 +41,8 @@ let categoryUpdate = function(){
             subSelect.appendChild(opt);
         })
     }
-    else if(catSelect.value === "nat"){
-        console.log("nature");
+    else if(catSelect.value === "giraffe"){
+        console.log("giraffe");
         natureSubcats.forEach(function(elem){
             let opt = document.createElement("option");
             opt.value = elem;
@@ -61,14 +56,3 @@ let categoryUpdate = function(){
 
 catSelect.addEventListener("change", categoryUpdate);
 
-imageBTN.addEventListener("click", imageToggle);
-
-colorBTN.addEventListener("click", function(){
-    console.log("Hello " + "World");
-
-    let rComp = Math.random()*255;
-    let gComp = Math.random()*255;
-    let bComp = Math.random()*255;
-    //"rgb(18, 187, 56)"
-    field.style.backgroundColor = "rgb(" + rComp + ", " + gComp + ", " + bComp + ")";
-})

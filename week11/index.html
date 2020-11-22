@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #colorField{
-            height: 400px;
-            background-color: rgb(0, 26, 255);
+        #imageField img{
+            height: 300px;
+            
         }
 
         form {
@@ -18,9 +18,9 @@
 <body>
     <form action="" method="POST">
         <select id="category">
-            <option value="food">Food</option>
-            <option value="anim">Animals</option>
-            <option value="nat">Nature</option>
+            <option value="elephant">Elephants</option>
+            <option value="panda">Pandas</option>
+            <option value="giraffe">Giraffes</option>
         </select>
 
         <select id="subcategory">
@@ -28,11 +28,11 @@
         </select>
     </form>
 
-    <div id="colorField"></div>
-    <button id="colorToggle">Change the color</button>
+    <div id="imageField"></div>
+    <img src="images/elephant1.jpg" alt="Elephant 1" id="elephant1IMG">
 
     <div id="imgContainer">
-        <img src="../what_JS_can_do/quokka1.jpg" alt="Qute quokka 1" id="quokkaIMG">
+        <img src="images/piggy1.jpg" alt="Piggy 1" id="piggyIMG">
     </div>
     <button id="imgToggle">Change the image</button>
 
