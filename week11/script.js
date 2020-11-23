@@ -2,19 +2,6 @@
 let catSelect = document.getElementById("category");
 let subSelect = document.getElementById("subcategory");
 
-let imageToggle = function(){
-
-    if(toggleIMG.alt === "Qute quokka 1"){
-        //do stuff
-        toggleIMG.src = "../what_JS_can_do/quokka2.jpg";
-        toggleIMG.alt = "Qute quokka 2";
-    }
-    else {
-        //do other stuff
-       toggleIMG.src = "../what_JS_can_do/quokka1.jpg";
-       toggleIMG.alt = "Qute quokka 1";
-    }
-}
 
 let categoryUpdate = function(){
     let elephantsSubcats = ["elephant1", "elephant2", "elephant3"];
@@ -24,8 +11,10 @@ let categoryUpdate = function(){
     subSelect.innerHTML = "";
 
     if(catSelect.value === "elephant"){
+        elephant1IMG.src="images/elephant1.jpg";
+        elephant1IMG.alt="Elephant 1";
         console.log("elephant");
-        foodSubcats.forEach(function(elem){
+        elephantsSubcats.forEach(function(elem){
             let opt = document.createElement("option");
             opt.value = elem;
             opt.innerText = elem;
@@ -33,8 +22,10 @@ let categoryUpdate = function(){
         })
     }
     else if(catSelect.value === "panda"){
+        elephant1IMG.src="images/panda1.jpg";
+        elephant1IMG.alt="Panda 1";
         console.log("panda");
-        animSubcats.forEach(function(elem){
+        pandasSubcats.forEach(function(elem){
             let opt = document.createElement("option");
             opt.value = elem;
             opt.innerText = elem;
@@ -42,8 +33,10 @@ let categoryUpdate = function(){
         })
     }
     else if(catSelect.value === "giraffe"){
+        elephant1IMG.src="images/giraffe1.jpg";
+        elephant1IMG.alt="Giraffe 1";
         console.log("giraffe");
-        natureSubcats.forEach(function(elem){
+        giraffesSubcats.forEach(function(elem){
             let opt = document.createElement("option");
             opt.value = elem;
             opt.innerText = elem;
@@ -52,7 +45,36 @@ let categoryUpdate = function(){
     }
 }
 
-//imageToggle();
 
 catSelect.addEventListener("change", categoryUpdate);
 
+let carousel = document.getElementById("carousel");
+let carouselIMG = document.getElementById("carouselIMG");
+
+let images = [
+        "images/piggy1.jpg",
+        "images/piggy2.jpg",
+        "images/piggy3.jpg"
+    ]
+
+let imgChange = function(){
+    if (carouselIMG.alt === "Piggy 1"){
+        carouselIMG.src = images[1];
+        carouselIMG.alt = "Piggy 2";
+    }
+
+    else if (carouselIMG.alt === "Piggy 2"){
+        carouselIMG.src = images[2];
+        carouselIMG.alt = "Piggy 3";
+    }
+
+    else if (carouselIMG.alt === "Piggy 3"){
+        carouselIMG.src = images[0];
+        carouselIMG.alt = "Piggy 1";
+    }
+
+}
+
+window.addEventListener("load",function(){
+    setInterval(imgChange,3000);
+});
