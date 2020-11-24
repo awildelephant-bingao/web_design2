@@ -44,17 +44,6 @@ let categoryUpdate = function(){
             subSelect.appendChild(opt);
         })
 
-    
-       // if(subSelect.value === "elephant"){
-         //   elephant1IMG.src="images/elephant1.jpg";
-          //  elephant1IMG.alt="Elephant 1";}
-       // else if(subSelect.value === "elephant"){
-         //   elephant1IMG.src="images/elephant2.jpg";
-          //  elephant1IMG.alt="Elephant 2";}
-        //else if(subSelect.value === "elephant"){
-             //   elephant1IMG.src="images/elephant3.jpg";
-              //  elephant1IMG.alt="Elephant 3";
-
 
     }
 }
