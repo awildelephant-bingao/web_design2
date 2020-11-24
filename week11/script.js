@@ -11,7 +11,7 @@ let categoryUpdate = function(){
     subSelect.innerHTML = "";
 
     if(catSelect.value === "elephant"){
-        elephant1IMG.src="images/elephant1.jpg";
+        elephant1IMG.src="images/elephant4.jpg";
         elephant1IMG.alt="Elephant 1";
         console.log("elephant");
         elephantsSubcats.forEach(function(elem){
@@ -19,10 +19,11 @@ let categoryUpdate = function(){
             opt.value = elem;
             opt.innerText = elem;
             subSelect.appendChild(opt);
+
         })
     }
     else if(catSelect.value === "panda"){
-        elephant1IMG.src="images/panda1.jpg";
+        elephant1IMG.src="images/panda4.jpg";
         elephant1IMG.alt="Panda 1";
         console.log("panda");
         pandasSubcats.forEach(function(elem){
@@ -33,7 +34,7 @@ let categoryUpdate = function(){
         })
     }
     else if(catSelect.value === "giraffe"){
-        elephant1IMG.src="images/giraffe1.jpg";
+        elephant1IMG.src="images/giraffe4.jpg";
         elephant1IMG.alt="Giraffe 1";
         console.log("giraffe");
         giraffesSubcats.forEach(function(elem){
@@ -42,8 +43,22 @@ let categoryUpdate = function(){
             opt.innerText = elem;
             subSelect.appendChild(opt);
         })
+
+    
+       // if(subSelect.value === "elephant"){
+         //   elephant1IMG.src="images/elephant1.jpg";
+          //  elephant1IMG.alt="Elephant 1";}
+       // else if(subSelect.value === "elephant"){
+         //   elephant1IMG.src="images/elephant2.jpg";
+          //  elephant1IMG.alt="Elephant 2";}
+        //else if(subSelect.value === "elephant"){
+             //   elephant1IMG.src="images/elephant3.jpg";
+              //  elephant1IMG.alt="Elephant 3";
+
+
     }
 }
+
 
 
 catSelect.addEventListener("change", categoryUpdate);
