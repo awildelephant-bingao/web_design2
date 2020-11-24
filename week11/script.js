@@ -1,7 +1,24 @@
-
 let catSelect = document.getElementById("category");
 let subSelect = document.getElementById("subcategory");
 
+let carousel = document.getElementById("carousel");
+let carouselIMG = document.getElementById("carouselIMG");
+
+let images = [
+    "images/piggy1.jpg",
+    "images/piggy2.jpg",
+    "images/piggy3.jpg"
+]
+
+let eleph1IMGs = [
+    "images/elephant1.jpg",
+    "images/elephant2.jpg",
+    "images/elephant3.jpg",
+    "images/elephant4.jpg"
+]
+
+let currentImages = images;
+let counter = 0;
 
 let categoryUpdate = function(){
     let elephantsSubcats = ["elephant1", "elephant2", "elephant3"];
@@ -49,36 +66,25 @@ let categoryUpdate = function(){
 }
 
 
-
-catSelect.addEventListener("change", categoryUpdate);
-
-let carousel = document.getElementById("carousel");
-let carouselIMG = document.getElementById("carouselIMG");
-
-let images = [
-        "images/piggy1.jpg",
-        "images/piggy2.jpg",
-        "images/piggy3.jpg"
-    ]
-
 let imgChange = function(){
-    if (carouselIMG.alt === "Piggy 1"){
-        carouselIMG.src = images[1];
-        carouselIMG.alt = "Piggy 2";
+    counter++;
+    if(counter === currentImages.length){
+        counter = 0;
     }
+    console.log(counter);
+    carouselIMG.src = currentImages[counter];
+}
 
-    else if (carouselIMG.alt === "Piggy 2"){
-        carouselIMG.src = images[2];
-        carouselIMG.alt = "Piggy 3";
+let imgSetUpdate = function(){
+    if(subSelect.value == "elephant1"){
+        currentImages = eleph1IMGs;
     }
-
-    else if (carouselIMG.alt === "Piggy 3"){
-        carouselIMG.src = images[0];
-        carouselIMG.alt = "Piggy 1";
-    }
-
 }
 
 window.addEventListener("load",function(){
+    categoryUpdate();
+    imgSetUpdate();
     setInterval(imgChange,3000);
 });
+catSelect.addEventListener("change", categoryUpdate);
+subSelect.addEventListener("change", imgSetUpdate);
