@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .js-image{
+        height:400px;
+    }
+</style>
+
+</head>
+
+<body>
+    <main>
+        <div class="some-ps">
+            <p class="Piggy-ps">
+                A pig is any of the animals in the genus Sus, within the even-toed ungulate family Suidae. Pigs include
+                domestic pigs and their ancestor, the common Eurasian wild boar (Sus scrofa), along with other species.
+                Pigs, like all suids, are native to the Eurasian and African continents, ranging from Europe to the
+                Pacific islands. Suids other than the pig are the babirusa of Indonesia, the pygmy hog of Asia, the
+                warthog of Africa, and another genus of pigs from Africa. The suids are a sister clade to peccaries.
+            </p>
+
+            <p class="Piggy-ps">
+                With around 1 billion individuals alive at any time, the domestic pig is among the most populous large
+                mammals in the world.[3][4] Pigs are omnivores and can consume a wide range of food.[5] Pigs are
+                biologically similar to humans and are thus frequently used for human medical research.
+            </p>
+
+        </div>
+    
+    <img src="images/piggy.jpg" alt="Piggy" class="js-image">
+
+    <button id="clickA">click me to learn more</button>
+    <button id="clickB">click me to remove the content</button>
+    <button id="clickC">click me to hide the image</button>
+    <button id="clickD">click me to toggle image</button>
+    <button id="clickE">click me to fadeout image</button>
+    <button id="clickF">click me to fadein image</button>
+    <button id="clickG">click me to fadeToggle</button>
+    <button id="clickH">click me to slideToggle</button>
+    <button id="clickI">click me to custom Animation</button>
+    
+
+</main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#clickA").click(function(){
+                $(".some-ps").append('<p class="Piggy-ps"> A pig is any of the animals in the genus Sus, within the even-toed ungulate family Suidae. Pigs include domestic pigs and their ancestor, the common Eurasian wild boar (Sus scrofa), along with other species. Pigs, like all suids, are native to the Eurasian and African continents, ranging from Europe to thePacific islands. Suids other than the pig are the babirusa of Indonesia, the pygmy hog of Asia, the warthog of Africa, and another genus of pigs from Africa. The suids are a sister clade to peccaries. </p>');
+            });
+
+            $("#clickB").click(function(){
+                $(".Piggy-ps:last-child").remove();
+            });
+
+            $("#clickC").click(function(){
+                $(".js-image").hide();
+            });
+
+            $("#clickD").click(function(){
+                $(".js-image").toggle();
+
+            });
+
+            $("#clickE").click(function(){
+                $(".js-image").fadeOut(2000);
+
+            });
+
+            $("#clickF").click(function(){
+                $(".js-image").fadeIn(2000);
+
+            });
+
+            $("#clickG").click(function(){
+                $(".js-image").fadeToggle(3000);
+
+            });
+
+            $("#clickH").click(function(){
+                $(".js-image").slideToggle(3000,function(){
+                    $(".some-ps").after("<p>Animation done!</p>");
+                });
+
+            $("#clickI").click(function(){
+                $(".js-image").animate({
+                    height:"0px",
+                    width:"400px",
+                    opacity: "0.2",
+                    marginBottom:"400px"
+                },3000);
+
+            });
+
+            });
+
+
+
+          
+        });
+        
+    </script>
+
+</body>
+
+</html>
