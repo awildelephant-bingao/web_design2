@@ -1,0 +1,54 @@
+.blue-bg {
+    background-color: rgb(37, 142, 166);
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.green-bg {
+    background-color: rgb(8, 130, 110);
+}
+
+.pink-bg {
+    background-color: rgb(186, 57, 57);
+}
+
+.purple-bg {
+    background-color: rgb(73, 15, 128);
+}
+
+.ricewhite-bg {
+    background-color: rgb(245, 251, 239);
+}
+
+.orange-bg {
+    background-color:#DF802B;
+}
+
+.white-tx{
+    color:white
+}
+
+.black-tx {
+    color:black;
+}
+
+.black-tx {
+    color: rgb(0,0,0)
+}
+
+.purple-tx {
+    color: rgb(226, 194, 255);
+}
+
+@media(min-width:768px){
+    .purple-tx {
+        color:orange ;
+
+    }
+}

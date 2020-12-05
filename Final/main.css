@@ -1,0 +1,157 @@
+@import url("color.css");
+
+
+.flex-container {
+    font: 15px Arial, sans-serif;
+}
+
+img.nav-logo {
+    
+    width: 150px;
+}
+
+img.toggle-img {
+    margin-top:1px;
+    width: 60px;
+    
+}
+
+input#Toggle {
+    display: none;
+}
+
+label[for=Toggle] {
+    Float: right;
+}
+
+input#Toggle:checked+ul {
+    display: block;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    background-color:#DF802B;
+    width: 100%;
+
+}
+
+nav ul li {
+    border-bottom: 1px solid white;
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+
+}
+
+nav ul li img {
+    width: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#landingIMG {
+    width:100%;
+}
+
+#HOLA {
+    text-align: center;
+}
+
+.firstP{
+    font: 15px Arial, sans-serif;
+    line-height:28px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color:grey;
+}
+#fourIMG {
+    width:100%;
+}
+
+#COVID-19{
+    color:#DF802B;
+    text-align: center;
+    line-height:28px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+}
+
+#youtubeIMG {
+    width:100%;
+}
+
+.secondP{
+    font: 15px Arial, sans-serif;
+    line-height:28px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color:grey;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 768px) {
+    label[for="Toggle"] {
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+        float: right;
+        padding: 0px;
+        background-color: initial;
+        position: initial;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        display: inline-block;
+        padding-top: 30px;
+
+    }
+
+    nav ul li img {
+        width: 40px;
+        margin-top: -3px;
+    }
+
+    img.nav-logo {
+        margin-left: 20px;
+        width: 90px;
+    }
+
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+}
