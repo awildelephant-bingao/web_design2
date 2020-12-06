@@ -37,7 +37,6 @@ nav ul {
     position: fixed;
     background-color:#DF802B;
     width: 100%;
-
 }
 
 nav ul li {
@@ -45,8 +44,10 @@ nav ul li {
     margin: 20px;
     padding-bottom: 20px;
     font-size: 20px;
+}
 
-
+nav ul li a {
+    color:white;
 }
 
 nav ul li img {
@@ -55,22 +56,36 @@ nav ul li img {
     margin-bottom: -10px;
 }
 
+
 #carousel img{
     width:100%;
 }
 
 #HOLA {
     text-align: center;
+    font-size: 38px;
+}
+
+#FACES {
+    text-align: center;
+    font-size: 38px;
 }
 
 .firstP{
-    font: 18px Arial, sans-serif;
+    font: 20px Arial, sans-serif;
     line-height:28px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
     color:grey;
 }
-#fourIMG {
+
+
+.fourIMG {
+    width:300px;
+    margin: auto;
+}
+
+.fourIMG img{
     width:100%;
 }
 
@@ -82,19 +97,32 @@ nav ul li img {
     letter-spacing: 0.5px;
 }
 
-#youtubeIMG {
+.youtubeIMG {
+    width: 300px;
+    margin: auto;
+}
+
+.youtubeIMG img{
     width:100%;
 }
 
 .secondP{
-    font: 18px Arial, sans-serif;
+    font: px Arial, sans-serif;
     line-height:28px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
     color:grey;
+}
+
+.photowall {
+    width:350px;
+    margin:auto;
     margin-bottom: 50px;
 }
 
+.photowall img{
+    width:100%;
+}
 
 .grid-container {
     display: grid;
@@ -177,24 +205,69 @@ nav ul li img {
         border-bottom: none;
         display: inline-block;
         padding-top: 30px;
+        
 
     }
 
-    nav ul li img {
-        width: 40px;
-        margin-top: -3px;
+    nav ul li a {
+        color:grey;
+        text-align: center;
+        font: 20px Arial, sans-serif;
+         line-height:20px;
+        letter-spacing: 0.5px;
+        word-spacing: 1.5px;
+        
     }
 
     img.nav-logo {
-        margin-left: 20px;
-        width: 90px;
+        width: 500px;
     }
+    
 
 
     .flex {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: center;
 
+    }
+
+    .flex-container {
+        font: 15px Arial, sans-serif;
+        text-align: center;
+    }
+
+    
+    .fourIMG {
+     width: 750px;
+    margin: auto;
+    }
+
+    .youtubeIMG {
+        width: 750px;
+        margin: auto;
+    }
+
+    .photowall {
+        width:750px;
+        margin:auto;
+        margin-bottom: 50px;
+    }
+    
+    
+
+    .grid-container{
+        width:400px;
+        margin:auto;
+    }
+
+
+}
+
+@media(min-width: 1280px) {
+    .photowall {
+        width:1000px;
+        margin:auto;
+        margin-bottom: 50px;
     }
 }
