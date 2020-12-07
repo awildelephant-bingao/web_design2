@@ -24,11 +24,100 @@
         </nav>
     </header>
 
-    <main>
+    <div>
         <div class="bigIMG">
             <img src="Images/donate.jpg" alt="donate">
         </div>
+
+        <div class="Donate-text">
+            <h1 id="DONATEh1">MAKE A DIFFERENCE IN A CHILD'S LIFE TODAY</h1>
+            <p>You can help young people and families affected by COVID-19 through continued support of Heart of Los Angeles.</p>
+        </div>
+        <button id="clickA">click me to learn more</button>
+    </div>
+
+    <main>
+        <div class="donaform"><h1>Donate Form</h1></div>
+        <div class="main">
+            <form>
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name"><br>
+                    <label class="firstlabel">first name</label>
+                    <input class="lastname" type="text" name="last_name">
+                    <label class="lastlabel">lastname</label>
+                </div>
+
+                <h2 class="name">Phone</h2>
+                <input class="code" type="text" name="area_code">
+                <label class="area_code">Area Code</label>
+                <input class="number" tyoe="text" name="phone">
+                <label class="phone-number">Phone Number</label>
+                <h2 class="name">Email</h2>
+                <input class="email" type="text" name="email">
+                <h2 class="name">Address</h2>
+                <input class="address" type="text" name="address">
+                <h2 class="name">ZipCode</h2>
+                <input class="ZipCode" type="text" name="ZipCode">
+
+                <h2 class="name">Subject</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">--choose option</option>
+                    <option>Subject1</option>
+                    <option>Subject1</option>
+                    <option>Subject1</option>
+            
+                </select>
+
+                <h2 id="student">Are you beginner?</h2>
+
+                <label class="radio">
+                    <input class="radio-one" type="radio" checked="checked" name="">
+                    <span class="checkmark"></span>
+                    Yes
+                </label>
+
+                <label class="radio">
+                    <input class="radio-two" type="radio" name="">
+                    <span class="checkmark"></span>
+                    NO
+                </label>
+
+                <button type="submit">Donate</button>
+                
+
+
+            </form>
+
+
+
+
+
+        </div>
+
     </main>
+
+
+
     
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+        $(document).ready(function () {
+                    $("#clickA").click(function () {
+                        $(".Donate-text").append(
+                            '<p>As COVID-19 has forced the cancellation of our annual Gala, financial contributions are needed now more than ever as our families feel the economic impact of lost jobs and closed schools on top of already facing great chronic instability in their wages, housing, health, food situation, and emotional wellbeing prior to this crisis. We are eager to make sure that the pandemic does not trigger compounding life issues that could prohibit educational opportunities throughout their lives.</p><p>We thank you for helping to ensure that we, too, re-emerge ready and able to meet the even greater needs of our most vulnerable community members once the recovery phase begins.</p>'
+                            );
+                    });
+                });
+                    
+
+    </script>
 </body>
 </html>
