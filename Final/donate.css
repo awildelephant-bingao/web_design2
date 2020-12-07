@@ -1,3 +1,7 @@
+@import url("color.css");
+
+
+
 body {
     margin:10px;
 }
@@ -123,7 +127,7 @@ form {
     position:relative;
     width:150px;
     left:100px;
-    top:-37px;
+    top:-10px;
     line-height: 30px;
     border-radius:6px;
     padding:0 22px;
@@ -134,7 +138,7 @@ form {
         position:relative;
         width:150px;
         left:26px;
-        top:-10px;
+        top:15px;
         line-height: 30px;
         border-radius:6px;
         padding:0 22px;
@@ -148,7 +152,7 @@ form {
     text-transform: capitalize;
     font-size:14px;
     left:100px;
-    top:-40px;
+    top:-15px;
 }
 
 .lastlabel {
@@ -157,9 +161,212 @@ form {
         text-transform: capitalize;
         font-size:14px;
         left:100px;
-        top:-5px;
+        top:20px;
     }
+
+.email {
+    position:relative;
+    left:100px;
+    top:-10px;
+    line-height:30px;
+    width:150px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
 }
+
+.code {
+    position:relative;
+    left:100px;
+    top:-10px;
+    line-height:30px;
+    width:50px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+
+.number{
+    position:relative;
+    left:100px;
+    top:10px;
+    line-height:30px;
+    width:150px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+
+.area-code {
+    position:relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size:14px;
+    left:0px;
+    top:15px;
+
+}
+
+.phone-number{
+    position:relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size:14px;
+    left:-100px;
+    top:38px;
+}
+
+.card-number{
+    position:relative;
+    left:100px;
+    top:-10px;
+    line-height:30px;
+    width:150px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+
+.SecurityCode {
+        position:relative;
+        left:100px;
+        top:-10px;
+        line-height:30px;
+        width:50px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color:#555;
+
+}
+
+.ZipCode {
+    position:relative;
+    left:100px;
+    top:-10px;
+    line-height:30px;
+    width:50px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+
+.option{
+    position:relative;
+    left:100px;
+    top:-10px;
+    line-height: 30px;
+    width:200px;
+    height:30px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+    outline:none;
+    overflow:hidden;
+}
+
+.option option{
+    font-size:20px;
+}
+
+#membership {
+    margin-left:25px;
+    color:white;
+    font-size:18px;
+}
+
+.radio {
+    display:inline-block;
+    padding-right:70px;
+    font-size:20px;
+    margin-left:25px;
+    margin-top:15px;
+    color:white;
+
+}
+
+.radio input{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    cursor:pointer;
+    outline: none;
+
+
+}
+
+button{ 
+    background-color:#DF802B;
+    display:block;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    text-align: center;
+    border-radius: 12px;
+    border:2px solid #366473;
+    padding:14px 110px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.5px;
+}
+
+button:hover {
+    background-color:#5390F5;
+}
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.grid-item img {
+    width:100%;
+}
+
+.footerP{
+    padding:10px;
+}
+.footerP1{
+    text-align: center;
+    font: 12px Arial, sans-serif;
+    line-height:20px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color:white;
+    margin-bottom:-10px;
+}
+.footerP2{
+    text-align: center;
+    font: 12px Arial, sans-serif;
+    line-height:20px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color:white;
+}
+.footerP3{
+    text-align: center;
+    font: 12px Arial, sans-serif;
+    font-style: italic;
+    line-height:20px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color:white;
+}
+
 
 
 
@@ -201,7 +408,14 @@ form {
     img.nav-logo {
         width: 500px;
     }
-    
+
+    .Donate-text{
+        width:700px;
+        margin:auto;
+
+    }
+
+ 
     .firstP{
         width: 1200px;
         margin: auto;
@@ -224,4 +438,243 @@ form {
         font: 15px Arial, sans-serif;
         text-align: center;
     }
+
+    .grid-container{
+        width:400px;
+        margin:auto;
+    }
+
+
+
+    .donaform {
+        width:750px;
+        background-color:rgb(0,0,0,0.6);
+        margin:auto;
+        color:#FFFFFF;
+        padding:10px 0px 10px 0px;
+        text-align: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    .main{
+        width:750px;
+        margin:auto;
+    }
+
+    .firstname{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height: 40px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+    }
+    
+    .lastname {
+            position:relative;
+            left:417px;
+            top:-80px;
+            line-height: 40px;
+            border-radius:6px;
+            padding:0 22px;
+            font-size:16px;
+            color:#555;
+        }
+    
+    .firstlabel{
+        position: relative;
+        color: #E5E5E5;
+        text-transform: capitalize;
+        font-size:14px;
+        left:203px;
+        top:-45px;
+    }
+    
+    .lastlabel {
+            position: relative;
+            color: #E5E5E5;
+            text-transform: capitalize;
+            font-size:14px;
+            left:219px;
+            top:-47px;
+        }
+    
+    .email {
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:443px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color:#555;
+    }
+    
+    .code {
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:50px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color:#555;
+    }
+    
+    .number{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:268px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color:#555;
+    }
+    
+    .area-code {
+        position:relative;
+        color:#E5E5E5;
+        text-transform: capitalize;
+        font-size:14px;
+        left:100px;
+        top:-4px;
+    
+    }
+    
+    .phone-number{
+        position:relative;
+        color:#E5E5E5;
+        text-transform: capitalize;
+        font-size:14px;
+        left:-118px;
+        top:-2px;
+    }
+    
+    .card-number{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:443px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color:#555;
+    }
+    
+    .SecurityCode {
+            position:relative;
+            left:200px;
+            top:-37px;
+            line-height:40px;
+            width:50px;
+            border-radius:6px;
+            padding:0 22px;
+            font-size:16px;
+            color:#555;
+    
+    }
+    
+    .ZipCode {
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:50px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color:#555;
+    }
+    
+    .option{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height: 40px;
+        width:200px;
+        height:40px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color:#555;
+        outline:none;
+        overflow:hidden;
+    }
+    
+    .option option{
+        font-size:20px;
+    }
+    
+    #membership {
+        margin-left:25px;
+        color:white;
+        font-size:18px;
+    }
+    
+    .radio {
+        display:inline-block;
+        padding-right:70px;
+        font-size:20px;
+        margin-left:25px;
+        margin-top:15px;
+        color:white;
+    
+    }
+    
+    .radio input{
+        width:20px;
+        height:20px;
+        border-radius:50%;
+        cursor:pointer;
+        outline: none;
+    
+    
+    }
+    
+    button{ 
+        background-color:#DF802B;
+        display:block;
+        margin:auto;
+        margin-top:30px;
+        margin-bottom:30px;
+        text-align: center;
+        border-radius: 12px;
+        border:2px solid #366473;
+        padding:14px 110px;
+        outline:none;
+        color:white;
+        cursor:pointer;
+        transition:0.5px;
+        font-size:25px;
+    
+    }
+    
+    button:hover {
+        background-color:#5390F5;
+    }
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
