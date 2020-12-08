@@ -329,8 +329,7 @@ button:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
     gap: 20px;
 }
 
