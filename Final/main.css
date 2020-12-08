@@ -42,6 +42,8 @@ nav ul {
     position: fixed;
     background-color:#DF802B;
     width: 100%;
+    margin-bottom:50px;
+    margin-top:10px;
 }
 
 nav ul li {
@@ -64,17 +66,25 @@ nav ul li img {
 
 #carousel img{
     width:100%;
+    margin-bottom:50px;
+    margin-top:50px;
+    
 }
 
 #HOLA {
     text-align: center;
     font-size: 30px;
     color:#DF802B;
+    margin-bottom:50px;
+
 }
 
 #FACES {
     text-align: center;
     font-size: 38px;
+    color:#DF802B;
+    margin-bottom:50px;
+    margin-top:50px;
 }
 
 .firstP{
@@ -93,6 +103,8 @@ nav ul li img {
 
 .fourIMG img{
     width:100%;
+    margin-top:30px;
+    margin-bottom:50px;
 }
 
 #COVID-19{
@@ -101,11 +113,13 @@ nav ul li img {
     line-height:28px;
     word-spacing: 1.5px;
     letter-spacing: 0.5px;
+    margin-bottom:50px;
 }
 
 .youtubeIMG {
     width: 300px;
     margin: auto;
+    margin-bottom:50px;
 }
 
 .youtubeIMG img{
@@ -119,6 +133,7 @@ nav ul li img {
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
     color:grey;
+    margin-bottom:50px;
 }
 
 .photowall {
@@ -129,6 +144,7 @@ nav ul li img {
 
 .photowall img{
     width:100%;
+    margin-bottom:-30px;
 }
 
 .grid-container {
@@ -214,11 +230,14 @@ nav ul li img {
     .firstP{
         width: 1200px;
         margin: auto;
+        margin-bottom:50px;
     }
 
     .secondP{
         width: 1200px;
         margin: auto;
+        margin-top:30px;
+        margin-bottom:30px;
     }
 
 

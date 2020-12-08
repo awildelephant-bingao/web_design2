@@ -32,6 +32,8 @@
         <div class="Donate-text">
             <h1 id="DONATEh1">MAKE A DIFFERENCE IN A CHILD'S LIFE TODAY</h1>
             <p>You can help young people and families affected by COVID-19 through continued support of Heart of Los Angeles.</p>
+            <p style="display: none">As COVID-19 has forced the cancellation of our annual Gala, financial contributions are needed now more than ever as our families feel the economic impact of lost jobs and closed schools on top of already facing great chronic instability in their wages, housing, health, food situation, and emotional wellbeing prior to this crisis. We are eager to make sure that the pandemic does not trigger compounding life issues that could prohibit educational opportunities throughout their lives.</p>
+            <p style="display: none">We thank you for helping to ensure that we, too, re-emerge ready and able to meet the even greater needs of our most vulnerable community members once the recovery phase begins.</p>
         </div>
         <button id="clickA">More Infor</button>
     </div>
@@ -131,33 +133,20 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
     <script>
-        $(document).ready(function () {
-                    $("#clickA").click(function () {
-                        $(".Donate-text").append(
-                            '<p>As COVID-19 has forced the cancellation of our annual Gala, financial contributions are needed now more than ever as our families feel the economic impact of lost jobs and closed schools on top of already facing great chronic instability in their wages, housing, health, food situation, and emotional wellbeing prior to this crisis. We are eager to make sure that the pandemic does not trigger compounding life issues that could prohibit educational opportunities throughout their lives.</p><p>We thank you for helping to ensure that we, too, re-emerge ready and able to meet the even greater needs of our most vulnerable community members once the recovery phase begins.</p>'
-                            );
-                    });
-                });
-
-
-                let trigButton = document.getElementById("donateButton");
-                
-                trigButton.addEventListener("click", function(){
-            let userAnswer = confirm("Are you sure you want to do this?");
-            console.log(userAnswer);
-
-            if(userAnswer == true){
-                alert("Thank you for your Donation!");
-            }
-            else {
-                alert("Donation cancelled");
-            }
+        var flip = 0;
+        $( "button" ).click(function() {
+          $( "p" ).toggle( flip++ % 2 === 0 );
         });
-                    
 
-    </script>
+
+
+
+        </script>
+
+         
+  
 </body>
 </html>
