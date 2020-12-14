@@ -2,22 +2,23 @@
 
 
 body {
-    margin:10px;
+    margin: 10px;
 }
+
 .flex-container {
     font: 15px Arial, sans-serif;
 }
 
 img.nav-logo {
-    
+
     width: 150px;
 }
 
 img.toggle-img {
-    margin-top:1px;
+    margin-top: 1px;
     width: 60px;
-    
-    
+
+
 }
 
 input#Toggle {
@@ -40,7 +41,7 @@ nav ul {
     padding: 10px;
     display: none;
     position: fixed;
-    background-color:#DF802B;
+    background-color: #DF802B;
     width: 100%;
 }
 
@@ -49,11 +50,11 @@ nav ul li {
     margin: 20px;
     padding-bottom: 20px;
     font-size: 20px;
-    
+
 }
 
 nav ul li a {
-    color:white;
+    color: white;
 }
 
 nav ul li img {
@@ -62,149 +63,154 @@ nav ul li img {
     margin-bottom: -10px;
 }
 
+.Socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.Socialmedia img {
+    width: 100%;
+    width: 15px;
+    margin-left: 6px;
+    margin-top: 5px;
+}
 
 
-.topIMG{
-    background-image:url(images/topimg.jpg);
-    background-position:center;
-    background-size:cover;
+
+.topIMG {
+    background-image: url(images/topimg.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
     position: relative;
-    height:540px;
+    height: 540px;
+    margin-top: 20px;
 
 }
 
 .infor {
-     width:100%;
-    background-color:rgb(0,0,0,0.6);
-    margin:auto;
-    color:#FFFFFF;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    margin: auto;
+    color: #FFFFFF;
     font: Arial, sans-serif;
-    line-height:20px;
+    line-height: 20px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    position:absolute;
-    bottom:0px;
-   
+    position: absolute;
+    bottom: 0px;
+
 }
 
 .mission {
-    font-size:20px;
-    line-height:28px;
+    font-size: 20px;
+    line-height: 28px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    margin:10px;
-    
+    margin: 10px;
+
 }
 
 
-.Donate{ 
-    background-color:#DF802B;
-    display:block;
-    margin:auto;
-    margin-top:30px;
-    margin-bottom:30px;
+.Donate {
+    background-color: #DF802B;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     border-radius: 12px;
-    border:2px solid #366473;
-    padding:14px 110px;
-    outline:none;
-    color:white;
-    cursor:pointer;
-    transition:0.5px;
-    font-size:20px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5px;
+    font-size: 20px;
 }
 
 button a {
-    color:white;
+    color: white;
 }
+
 button:hover {
-    background-color:#5390F5;
+    background-color: #5390F5;
 }
 
 #clickA {
-    background-color:#DF802B;
-    display:block;
-    margin:auto;
-    width:200px;
-    height:40px;
-    margin-top:30px;
-    margin-bottom:30px;
+    background-color: #DF802B;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
     border-radius: 12px;
-    border:2px solid #366473;
-    padding:0px 10px;
-    outline:none;
-    color:white;
-    cursor:pointer;
-    font-size:12px;
+    border: 2px solid #366473;
+    padding: 0px 10px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
 }
 
 
 .content h1 {
     text-align: center;
-    color:#DF802B;
-    margin-top:50px;
-    margin-bottom:50px;
+    color: #DF802B;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .content h2 {
     text-align: center;
-    color:#DF802B;
-    margin-top:50px;
-    margin-bottom:50px;
+    color: #DF802B;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.content p{
+.content p {
     font: 20px Arial, sans-serif;
-    line-height:28px;
+    line-height: 28px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:grey;
+    color: grey;
 }
 
-h5{
+h5 {
     text-align: center;
 }
 
 .handIMG img {
-    width:100%;
+    width: 100%;
 }
 
 .lastbutton {
-    background-color:white;
-    display:block;
-    margin:auto;
-    margin-top:30px;
-    margin-bottom:30px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
-    border:2px solid #366473;
-    padding:14px 10px;
-    outline:none;
-    color:#DF802B;
-    cursor:pointer;
-    width:300px;
-    
+    border: 2px solid #366473;
+    padding: 14px 10px;
+    outline: none;
+    color: #DF802B;
+    cursor: pointer;
+    width: 300px;
+
 }
 
 .lastbutton a {
-    color:#DF802B;
+    color: #DF802B;
 }
 
-main{
-    margin-bottom:50px;
-    
+main {
+    margin-bottom: 50px;
+
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -215,104 +221,152 @@ main{
 }
 
 .grid-item img {
-    width:100%;
+    width: 100%;
+    margin-top:30px;
 }
 
-.footerP{
-    padding:10px;
+.footerP {
+    padding: 10px;
 }
-.footerP1{
+
+.footerP1 {
     text-align: center;
     font: 12px Arial, sans-serif;
-    line-height:20px;
+    line-height: 20px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:white;
-    margin-bottom:-10px;
+    color: white;
+    margin-bottom: -10px;
 }
-.footerP2{
+
+.footerP2 {
     text-align: center;
     font: 12px Arial, sans-serif;
-    line-height:20px;
+    line-height: 20px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:white;
+    color: white;
 }
-.footerP3{
+
+.footerP3 {
     text-align: center;
     font: 12px Arial, sans-serif;
     font-style: italic;
-    line-height:20px;
+    line-height: 20px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:white;
+    color: white;
 }
 
 
 
 
-@media(min-width: 768px) {
-    label[for="Toggle"] {
-        display: none;
-    }
+    @media(min-width: 768px) {
+        label[for="Toggle"] {
+            display: none;
+        }
 
-    nav ul {
-        display: block;
-        float: right;
-        padding: 0px;
-        background-color: initial;
-        position: initial;
-    }
+        nav ul {
+            display: block;
+            float: right;
+            padding: 0px;
+            background-color: initial;
+            position: initial;
+            margin-top: 10px;
 
-    nav ul li {
-        border-bottom: none;
-        display: inline-block;
-        padding-top: 30px;
-        
+        }
 
-    }
+        nav ul li {
+            border-bottom: none;
+            display: inline-block;
+            padding-top: 30px;
 
-    nav ul li a {
-        color:grey;
-        text-align: center;
-        font: 20px Arial, sans-serif;
-         line-height:20px;
-        letter-spacing: 0.5px;
-        word-spacing: 1.5px;
-        
-    }
 
-    img.nav-logo {
-        width: 500px;
-    }
+        }
 
-    .flex {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+
+        nav ul li a {
+            color: grey;
+            font: 25px Arial, sans-serif;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+            word-spacing: 1.5px;
+
+        }
+
+
+        img.nav-logo {
+            width: 400px;
+            text-align: center;
+        }
+
+        .flex-container {
+            font: 15px Arial, sans-serif;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .Socialmedia {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+        }
+
+        .Socialmedia img {
+            width: 100%;
+            width: 30px;
+            margin-left: 15px;
+            margin-top: 20px;
+            margin-bottom:15px;
+        }
+
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
     
+        }
+
+        .flex-container {
+            font: 15px Arial, sans-serif;
+            text-align: center;
+
+        }
+
+
+        .grid-container {
+            width: 700px;
+            margin: auto;
+        }
+
+        .content {
+            width: 750px;
+            margin: auto;
+        }
+
+        .topIMG {
+            height: 500px;
+            padding-top: 250px;
+        }
+
+        .footerP1 {
+            font-size:20px;
+        }
+        .footerP2 {
+            font-size:20px;
+        }
+        .footerP3 {
+            font-size:20px;
+        }
+
     }
+
+    @media(min-width: 1280px) {
     
-    .flex-container {
-        font: 15px Arial, sans-serif;
-        text-align: center;
-        margin-bottom:150px;
+        nav ul li a {
+            font: 35px Arial, sans-serif;
+            
+        }
     }
-
-
-    .grid-container{
-        width:400px;
-        margin:auto;
-    }   
-    .content{
-        width:700px;
-        margin:auto;
-    }
-
-    .topIMG{
-        height:500px;
-        padding-top:250px;
-    }
-
-
-}
