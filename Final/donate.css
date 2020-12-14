@@ -3,7 +3,7 @@
 
 
 body {
-    margin:10px;
+    margin:20px;
 }
 .flex-container {
     font: 15px Arial, sans-serif;
@@ -37,7 +37,8 @@ input#Toggle:checked+ul {
 
 nav ul {
     list-style: none;
-    margin: -10px;
+    margin: -20px;
+    margin-top:2px;
     padding: 10px;
     display: none;
     position: fixed;
@@ -78,12 +79,14 @@ margin-top:5px;
 
 .bigIMG img{
     width:100%;
+    margin-bottom:40px;
 }
 
 #DONATEh1 {
     text-align: center;
     font-size: 30px;
     color:#DF802B;
+    margin-bottom:40px;
 }
 
 .Donate-text p {
@@ -110,6 +113,13 @@ main {
     text-align: center;
     margin-bottom:-20px;
 
+}
+
+.thank-you-text {
+    color:#DF802B;
+    text-align: center;
+    font-size:30px;
+    margin-bottom:40px;
 }
 
 .main {
@@ -318,8 +328,8 @@ button{
     background-color:#DF802B;
     display:block;
     margin:auto;
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-top:60px;
+    margin-bottom:60px;
     text-align: center;
     border-radius: 12px;
     border:2px solid #366473;
@@ -379,6 +389,7 @@ button:hover {
     word-spacing: 1.5px;
     color:white;
 }
+
 
 
 
@@ -683,7 +694,7 @@ button:hover {
         background-color:#DF802B;
         display:block;
         margin:auto;
-        margin-top:30px;
+        margin-top:60px;
         margin-bottom:60px;
         text-align: center;
         border-radius: 12px;
@@ -694,9 +705,15 @@ button:hover {
         cursor:pointer;
         transition:0.5px;
         font-size:25px;
-
-    
     }
+
+    .thank-you-text {
+            color:#DF802B;
+            text-align: center;
+            font-size:30px;
+            margin-bottom:70px;
+        }
+    
     
     button:hover {
         background-color:#5390F5;
@@ -710,6 +727,14 @@ button:hover {
     }
     .footerP3 {
         font-size:20px;
+    }
+
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
     }
 }
 

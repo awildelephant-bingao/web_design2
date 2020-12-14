@@ -2,7 +2,7 @@
 
 
 body {
-    margin:10px;
+    margin:20px;
 }
 .flex-container {
     font: 15px Arial, sans-serif;
@@ -36,7 +36,8 @@ input#Toggle:checked+ul {
 
 nav ul {
     list-style: none;
-    margin: -10px;
+    margin: -20px;
+    margin-top:2px;
     padding: 10px;
     display: none;
     position: fixed;
@@ -156,6 +157,7 @@ nav ul li img {
 
 .photowall img{
     width:100%;
+    width:335px;
     margin-bottom:30px;
 }
 
@@ -276,7 +278,7 @@ nav ul li img {
         width: 100%;
         margin: auto;
         margin-top:40px;
-        margin-bottom:80px;
+        margin-bottom:60px;
     }
 
     #HOLA{
@@ -298,8 +300,8 @@ nav ul li img {
     }
 
     #FACES {
-        margin-top:60px;
-        margin-bottom:80px;
+        margin-top:10px;
+        margin-bottom:60px;
         font-size:50px;
     }
 
@@ -330,12 +332,14 @@ nav ul li img {
 
 
     .photowall {
-        width:750px;
+        width:728px;
         margin:auto;
     }
 
     .photowall img {
-        margin-bottom:60px;
+        margin-bottom:80px;
+        width:100%;
+    
     }
     
     
@@ -359,9 +363,13 @@ nav ul li img {
 
 @media(min-width: 1280px) {
     .photowall {
-        width:1000px;
+        width:1240px;
         margin:auto;
         margin-bottom: 50px;
+    }
+
+    .photowall img{
+        width:100%;
     }
 
     nav ul li a {

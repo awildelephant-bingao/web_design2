@@ -2,7 +2,7 @@
 
 
 body {
-    margin:10px;
+    margin:20px;
 }
 .flex-container {
     font: 15px Arial, sans-serif;
@@ -36,7 +36,8 @@ input#Toggle:checked+ul {
 
 nav ul {
     list-style: none;
-    margin: -10px;
+    margin: -20px;
+    margin-top:2px;
     padding: 10px;
     display: none;
     position: fixed;

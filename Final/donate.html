@@ -35,7 +35,7 @@
     <main>
         <div class="donaform"><h1>Donation</h1></div>
         <div class="main">
-            <form>
+            <form id="donation-form">
                 <div id="name">
                     <h2 class="name">Name</h2>
                     <input class="firstname" type="text" name="first_name"><br>
@@ -60,9 +60,9 @@
 
                 <h2 class="name">Subject</h2>
                 <select class="option" name="subject">
-                    <option disabled="disabled" selected="selected">--choose option</option>
-                    <option>$20</option>
+                    <option disabled="disabled" selected="selected"></option>
                     <option>$50</option>
+                    <option>$20</option>
                     <option>$100</option>
                     <option>$250</option>
                     <option>$500</option>
@@ -146,6 +146,17 @@
         var flip = 0;
         $( "button" ).click(function() {
           $( "p" ).toggle( flip++ % 2 === 0 );
+        });
+
+
+        var thankYouMessage = '<h2 class="thank-you-text">Thank you for your donation!</h2>';
+        var $form = $("#donation-form");
+        var $main = $(".main");
+
+        $form.on('submit', function (evt) {
+            evt.preventDefault(); // don't actually submit the form or the page will reload
+            $form.remove();
+            $main.append(thankYouMessage);
         });
 
 
