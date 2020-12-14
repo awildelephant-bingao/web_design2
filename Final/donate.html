@@ -24,19 +24,7 @@
         </nav>
     </header>
 
-    <div>
-        <div class="bigIMG">
-            <img src="Images/donate.jpg" alt="donate">
-        </div>
 
-        <div class="Donate-text">
-            <h1 id="DONATEh1">MAKE A DIFFERENCE IN A CHILD'S LIFE TODAY</h1>
-            <p>You can help young people and families affected by COVID-19 through continued support of Heart of Los Angeles.</p>
-            <p style="display: none">As COVID-19 has forced the cancellation of our annual Gala, financial contributions are needed now more than ever as our families feel the economic impact of lost jobs and closed schools on top of already facing great chronic instability in their wages, housing, health, food situation, and emotional wellbeing prior to this crisis. We are eager to make sure that the pandemic does not trigger compounding life issues that could prohibit educational opportunities throughout their lives.</p>
-            <p style="display: none">We thank you for helping to ensure that we, too, re-emerge ready and able to meet the even greater needs of our most vulnerable community members once the recovery phase begins.</p>
-        </div>
-        <button id="clickA">More Infor</button>
-    </div>
 
     <main>
         <div class="donaform"><h1>Donation</h1></div>
@@ -94,9 +82,24 @@
 
                 <button id="donateButton" type="submit">Donate</button>
             </form>
-
-
         </div>
+
+        <div>
+            <div class="bigIMG">
+                <img src="Images/donate.jpg" alt="donate">
+            </div>
+    
+            <div class="Donate-text">
+                <h1 id="DONATEh1">MAKE A DIFFERENCE IN A CHILD'S LIFE TODAY</h1>
+                <p>You can help young people and families affected by COVID-19 through continued support of Heart of Los Angeles.</p>
+                <p style="display: none">As COVID-19 has forced the cancellation of our annual Gala, financial contributions are needed now more than ever as our families feel the economic impact of lost jobs and closed schools on top of already facing great chronic instability in their wages, housing, health, food situation, and emotional wellbeing prior to this crisis. We are eager to make sure that the pandemic does not trigger compounding life issues that could prohibit educational opportunities throughout their lives.</p>
+                <p style="display: none">We thank you for helping to ensure that we, too, re-emerge ready and able to meet the even greater needs of our most vulnerable community members once the recovery phase begins.</p>
+            </div>
+            <button id="clickA">More Infor</button>
+
+            <p style="display: none" class="Thankyou">Thank you for your donation!</p>
+        </div>
+
     </main>
 
     <footer class="orange-bg">
@@ -140,6 +143,20 @@
         $( "button" ).click(function() {
           $( "p" ).toggle( flip++ % 2 === 0 );
         });
+
+
+        $(document).ready(function () {
+                    $("#clickA").click(function () {
+                        $(".Thankyou").append(  
+                        );
+                    });
+
+                    $("#clickA").click(function () {
+                        $(".main").remove();
+                    });
+
+                });
+
 
 
 

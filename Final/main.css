@@ -36,14 +36,14 @@ input#Toggle:checked+ul {
 
 nav ul {
     list-style: none;
-    margin: 0px;
+    margin: -10px;
     padding: 10px;
     display: none;
     position: fixed;
     background-color:#DF802B;
     width: 100%;
     margin-bottom:50px;
-    margin-top:10px;
+    margin-top:-5px;
 }
 
 nav ul li {
@@ -63,11 +63,23 @@ nav ul li img {
     margin-bottom: -10px;
 }
 
+.Socialmedia {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+}
+
+.Socialmedia img {
+    width:100%;
+    width:15px;
+    margin-left:6px;
+    margin-top:5px;
+}
 
 #carousel img{
     width:100%;
-    margin-bottom:50px;
-    margin-top:50px;
+    margin-bottom:20px;
+    margin-top:18px;
     
 }
 
@@ -75,7 +87,7 @@ nav ul li img {
     text-align: center;
     font-size: 30px;
     color:#DF802B;
-    margin-bottom:50px;
+    margin-bottom:35px;
 
 }
 
@@ -83,8 +95,8 @@ nav ul li img {
     text-align: center;
     font-size: 38px;
     color:#DF802B;
-    margin-bottom:50px;
-    margin-top:50px;
+    margin-bottom:40px;
+    margin-top:40px;
 }
 
 .firstP{
@@ -103,8 +115,8 @@ nav ul li img {
 
 .fourIMG img{
     width:100%;
-    margin-top:30px;
-    margin-bottom:50px;
+    margin-top:25px;
+    margin-bottom:30px;
 }
 
 #COVID-19{
@@ -119,7 +131,7 @@ nav ul li img {
 .youtubeIMG {
     width: 300px;
     margin: auto;
-    margin-bottom:50px;
+    margin-bottom:40px;
 }
 
 .youtubeIMG img{
@@ -139,12 +151,12 @@ nav ul li img {
 .photowall {
     width:350px;
     margin:auto;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .photowall img{
     width:100%;
-    margin-bottom:-30px;
+    margin-bottom:30px;
 }
 
 .grid-container {
@@ -155,6 +167,7 @@ nav ul li img {
 
 .grid-item img {
     width:100%;
+    margin-top:30px;
 }
 
 .footerP{
@@ -191,6 +204,7 @@ nav ul li img {
 
 
 
+
 @media(min-width: 768px) {
     label[for="Toggle"] {
         display: none;
@@ -202,6 +216,8 @@ nav ul li img {
         padding: 0px;
         background-color: initial;
         position: initial;
+        margin-top:10px;
+
     }
 
     nav ul li {
@@ -212,10 +228,10 @@ nav ul li img {
 
     }
 
+
     nav ul li a {
         color:grey;
-        text-align: center;
-        font: 20px Arial, sans-serif;
+        font: 25px Arial, sans-serif;
          line-height:20px;
         letter-spacing: 0.5px;
         word-spacing: 1.5px;
@@ -223,27 +239,75 @@ nav ul li img {
     }
 
     img.nav-logo {
-        width: 500px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .flex-container {
+        font: 15px Arial, sans-serif;
+        display:flex;
+        flex-direction: row;
+    }
+
+    .Socialmedia {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .Socialmedia img {
+    width:100%;
+    width:30px;
+    margin-left:15px;
+    margin-top:-10px;
+    }
+
+    #carousel img {
+        margin-top:35px;
     }
     
     .firstP{
-        width: 1200px;
+        width: 100%;
         margin: auto;
         margin-bottom:50px;
     }
 
     .secondP{
-        width: 1200px;
+        width: 100%;
         margin: auto;
-        margin-top:30px;
-        margin-bottom:30px;
+        margin-top:40px;
+        margin-bottom:80px;
     }
 
+    #HOLA{
+        margin-top:60px;
+        margin-bottom:80px;
+        font-size:50px;
+    }
 
+    .fourIMG img {
+        margin-top:40px;
+        margin-bottom:70px;
+    }
+
+    #COVID-19 {
+        margin-top:20px;
+        margin-bottom:80px;
+        font-size:50px;
+        line-height: 80px;;
+    }
+
+    #FACES {
+        margin-top:60px;
+        margin-bottom:80px;
+        font-size:50px;
+    }
+
+   
     .flex {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
 
     }
 
@@ -268,17 +332,29 @@ nav ul li img {
     .photowall {
         width:750px;
         margin:auto;
-        margin-bottom: 50px;
+    }
+
+    .photowall img {
+        margin-bottom:60px;
     }
     
     
 
     .grid-container{
-        width:400px;
+        width:700px;
         margin:auto;
     }
 
 
+    .footerP1 {
+        font-size:20px;
+    }
+    .footerP2 {
+        font-size:20px;
+    }
+    .footerP3 {
+        font-size:20px;
+    }
 }
 
 @media(min-width: 1280px) {
@@ -286,5 +362,10 @@ nav ul li img {
         width:1000px;
         margin:auto;
         margin-bottom: 50px;
+    }
+
+    nav ul li a {
+        font: 35px Arial, sans-serif;
+        
     }
 }
