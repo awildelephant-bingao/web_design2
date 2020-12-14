@@ -37,7 +37,7 @@ input#Toggle:checked+ul {
 
 nav ul {
     list-style: none;
-    margin: 0px;
+    margin: -10px;
     padding: 10px;
     display: none;
     position: fixed;
@@ -63,6 +63,19 @@ nav ul li img {
     margin-bottom: -10px;
 }
 
+.Socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.Socialmedia img {
+width:100%;
+width:15px;
+margin-left:6px;
+margin-top:5px;
+}
+
 .bigIMG img{
     width:100%;
 }
@@ -86,7 +99,7 @@ main {
     background-position:center;
     background-size:cover;
     font-family:sans-serif;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .donaform {
@@ -95,6 +108,7 @@ main {
     color:black;
     padding:10px 0px 10px 0px;
     text-align: center;
+    margin-bottom:-20px;
 
 }
 
@@ -333,6 +347,7 @@ button:hover {
 
 .grid-item img {
     width:100%;
+    margin-top:30px;
 }
 
 .footerP{
@@ -371,7 +386,6 @@ button:hover {
 
 
 
-
 @media(min-width: 768px) {
     label[for="Toggle"] {
         display: none;
@@ -383,6 +397,8 @@ button:hover {
         padding: 0px;
         background-color: initial;
         position: initial;
+        margin-top:10px;
+
     }
 
     nav ul li {
@@ -393,10 +409,10 @@ button:hover {
 
     }
 
+
     nav ul li a {
         color:grey;
-        text-align: center;
-        font: 20px Arial, sans-serif;
+        font: 25px Arial, sans-serif;
          line-height:20px;
         letter-spacing: 0.5px;
         word-spacing: 1.5px;
@@ -404,8 +420,29 @@ button:hover {
     }
 
     img.nav-logo {
-        width: 500px;
+        width: 400px;
+        text-align: center;
     }
+
+    .flex-container {
+        font: 15px Arial, sans-serif;
+        display:flex;
+        flex-direction: row;
+    }
+
+    .Socialmedia {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .Socialmedia img {
+    width:100%;
+    width:30px;
+    margin-left:15px;
+    margin-top:20px;
+    }
+
 
     .Donate-text{
         width:700px;
@@ -413,10 +450,18 @@ button:hover {
 
     }
 
+    .bigIMG img{
+        width:100%;
+        margin-bottom:45px;
+    }
  
     .firstP{
         width: 1200px;
         margin: auto;
+    }
+
+    #DONATEh1{
+        margin-bottom:45px;
     }
 
     .secondP{
@@ -438,7 +483,7 @@ button:hover {
     }
 
     .grid-container{
-        width:400px;
+        width:700px;
         margin:auto;
     }
 
@@ -639,7 +684,7 @@ button:hover {
         display:block;
         margin:auto;
         margin-top:30px;
-        margin-bottom:30px;
+        margin-bottom:60px;
         text-align: center;
         border-radius: 12px;
         border:2px solid #366473;
@@ -649,29 +694,31 @@ button:hover {
         cursor:pointer;
         transition:0.5px;
         font-size:25px;
+
     
     }
     
     button:hover {
         background-color:#5390F5;
     }
-    
-    
-    
-    
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .footerP1 {
+        font-size:20px;
+    }
+    .footerP2 {
+        font-size:20px;
+    }
+    .footerP3 {
+        font-size:20px;
+    }
 }
+
+@media(min-width: 1280px) {
+
+    nav ul li a {
+        font: 35px Arial, sans-serif;
+        
+    }
+}
+    
+    
