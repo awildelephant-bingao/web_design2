@@ -2,23 +2,24 @@
 
 
 body {
-    margin:20px;
+    margin: 20px;
 }
+
 .flex-container {
     font: 15px Arial, sans-serif;
 }
 
 img.nav-logo {
-    
+
     width: 150px;
-    margin-left:-5px;
+    margin-left: -5px;
 }
 
 img.toggle-img {
-    margin-top:1px;
+    margin-top: 1px;
     width: 60px;
-    
-    
+
+
 }
 
 input#Toggle {
@@ -38,14 +39,14 @@ input#Toggle:checked+ul {
 nav ul {
     list-style: none;
     margin: -20px;
-    margin-top:2px;
+    margin-top: 2px;
     padding: 10px;
     display: none;
     position: fixed;
-    background-color:#DF802B;
+    background-color: #DF802B;
     width: 100%;
-    margin-bottom:50px;
-    margin-top:-5px;
+    margin-bottom: 50px;
+    margin-top: -5px;
 }
 
 nav ul li {
@@ -54,11 +55,11 @@ nav ul li {
     padding-bottom: 20px;
     font-size: 20px;
     margin-right: 27px;
-margin-left: 10px;
+    margin-left: 10px;
 }
 
 nav ul li a {
-    color:white;
+    color: white;
 }
 
 nav ul li img {
@@ -68,102 +69,102 @@ nav ul li img {
 }
 
 .Socialmedia {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        margin-left: -6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: -6px;
 }
 
 .Socialmedia img {
-    width:100%;
-    width:15px;
-    margin-left:6px;
-    margin-top:5px;
+    width: 100%;
+    width: 15px;
+    margin-left: 6px;
+    margin-top: 5px;
 }
 
-#carousel img{
-    width:100%;
-    margin-bottom:20px;
-    margin-top:18px;
-    
+#carousel img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 18px;
+
 }
 
 #HOLA {
     text-align: center;
     font-size: 30px;
-    color:#DF802B;
-    margin-bottom:35px;
+    color: #DF802B;
+    margin-bottom: 35px;
 
 }
 
 #FACES {
     text-align: center;
     font-size: 38px;
-    color:#DF802B;
-    margin-bottom:40px;
-    margin-top:40px;
+    color: #DF802B;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
-.firstP{
+.firstP {
     font: 20px Arial, sans-serif;
-    line-height:28px;
+    line-height: 28px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:grey;
+    color: grey;
 }
 
 
 .fourIMG {
-    display:none;
-    width:300px;
+    display: none;
+    width: 300px;
     margin: auto;
 }
 
-.fourIMG img{
-    width:100%;
-    margin-top:25px;
-    margin-bottom:30px;
+.fourIMG img {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
-#COVID-19{
-    color:#DF802B;
+#COVID-19 {
+    color: #DF802B;
     text-align: center;
-    line-height:28px;
+    line-height: 28px;
     word-spacing: 1.5px;
     letter-spacing: 0.5px;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .youtubeIMG {
     width: 335px;
     margin: auto;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
-.youtubeIMG img{
-    width:100%;
-    padding-bottom:10px;
+.youtubeIMG img {
+    width: 100%;
+    padding-bottom: 10px;
 }
 
-.secondP{
+.secondP {
     font: 20px Arial, sans-serif;
-    line-height:28px;
+    line-height: 28px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:grey;
-    margin-bottom:50px;
+    color: grey;
+    margin-bottom: 50px;
 }
 
 .photowall {
-    width:350px;
-    margin:auto;
+    width: 350px;
+    margin: auto;
     margin-bottom: 24px;
 }
 
-.photowall img{
-    width:100%;
-    width:335px;
-    margin-bottom:30px;
+.photowall img {
+    width: 100%;
+    width: 335px;
+    margin-bottom: 30px;
 }
 
 .grid-container {
@@ -173,38 +174,41 @@ nav ul li img {
 }
 
 .grid-item img {
-    width:100%;
-    margin-top:30px;
+    width: 100%;
+    margin-top: 30px;
 }
 
-.footerP{
-    padding:10px;
+.footerP {
+    padding: 10px;
 }
-.footerP1{
+
+.footerP1 {
     text-align: center;
     font: 12px Arial, sans-serif;
-    line-height:20px;
+    line-height: 20px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:white;
-    margin-bottom:-10px;
+    color: white;
+    margin-bottom: -10px;
 }
-.footerP2{
+
+.footerP2 {
     text-align: center;
     font: 12px Arial, sans-serif;
-    line-height:20px;
+    line-height: 20px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:white;
+    color: white;
 }
-.footerP3{
+
+.footerP3 {
     text-align: center;
     font: 12px Arial, sans-serif;
     font-style: italic;
-    line-height:20px;
+    line-height: 20px;
     letter-spacing: 0.5px;
     word-spacing: 1.5px;
-    color:white;
+    color: white;
 }
 
 
@@ -223,7 +227,7 @@ nav ul li img {
         padding: 0px;
         background-color: initial;
         position: initial;
-        margin-top:10px;
+        margin-top: 10px;
 
     }
 
@@ -231,18 +235,18 @@ nav ul li img {
         border-bottom: none;
         display: inline-block;
         padding-top: 30px;
-        
+
 
     }
 
 
     nav ul li a {
-        color:grey;
+        color: grey;
         font: 25px Arial, sans-serif;
-         line-height:20px;
+        line-height: 20px;
         letter-spacing: 0.5px;
         word-spacing: 1.5px;
-        
+
     }
 
     img.nav-logo {
@@ -252,7 +256,7 @@ nav ul li img {
 
     .flex-container {
         font: 15px Arial, sans-serif;
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
@@ -263,55 +267,56 @@ nav ul li img {
     }
 
     .Socialmedia img {
-        width:100%;
-        width:30px;
-        margin-left:15px;
-        margin-top:-26.5px;
-        }
+        width: 100%;
+        width: 30px;
+        margin-left: 15px;
+        margin-top: -26.5px;
+    }
 
     #carousel img {
-        margin-top:35px;
+        margin-top: 35px;
     }
-    
-    .firstP{
+
+    .firstP {
         width: 100%;
         margin: auto;
-        margin-bottom:70px;
-        width:750px;
+        margin-bottom: 70px;
+        width: 750px;
     }
 
-    .secondP{
-        width:750px;
+    .secondP {
+        width: 750px;
         margin: auto;
-        margin-top:40px;
-        margin-bottom:60px;
+        margin-top: 40px;
+        margin-bottom: 60px;
     }
 
-    #HOLA{
+    #HOLA {
         margin-top: 50px;
-margin-bottom: 65px;
-        font-size:50px;
+        margin-bottom: 65px;
+        font-size: 50px;
     }
 
     .fourIMG img {
-        margin-top:40px;
-        margin-bottom:70px;
+        margin-top: 40px;
+        margin-bottom: 70px;
     }
 
     #COVID-19 {
-        margin-top:20px;
-        margin-bottom:70px;
-        font-size:50px;
-        line-height: 80px;;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        font-size: 50px;
+        line-height: 80px;
+        ;
     }
 
     #FACES {
-        margin-top:20px;
-        margin-bottom:60px;
-        font-size:50px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        font-size: 50px;
     }
 
-   
+
     .flex {
         display: flex;
         flex-direction: row;
@@ -323,78 +328,89 @@ margin-bottom: 65px;
         text-align: center;
     }
 
-    
+
     .fourIMG {
-        display:initial;
-     width: 750px;
-    margin: auto;
+        display: initial;
+        width: 750px;
+        margin: auto;
     }
 
     .youtubeIMG {
         width: 750px;
         margin: auto;
-        padding-bottom:30px;
+        padding-bottom: 30px;
     }
 
 
     .photowall {
-        width:728px;
-        margin:auto;
+        width: 728px;
+        margin: auto;
     }
 
     .photowall img {
-        margin-bottom:80px;
-        width:100%;
-    
-    }
-    
-    
+        margin-bottom: 80px;
+        width: 100%;
 
-    .grid-container{
-        width:700px;
-        margin:auto;
+    }
+
+
+
+    .grid-container {
+        width: 700px;
+        margin: auto;
     }
 
 
     .footerP1 {
-        font-size:20px;
+        font-size: 20px;
     }
+
     .footerP2 {
-        font-size:20px;
+        font-size: 20px;
     }
+
     .footerP3 {
-        font-size:20px;
+        font-size: 20px;
     }
 }
 
 @media(min-width: 1280px) {
     .photowall {
-        width:750px;
-        margin:auto;
+        width: 750px;
+        margin: auto;
         margin-bottom: 50px;
     }
 
-    .photowall img{
-        width:100%;
-        margin-bottom:30px;
+    .photowall img {
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     nav ul li a {
         font: 35px Arial, sans-serif;
-        
+
     }
 
     .flex {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-left:200px;
+        margin-left: 200px;
     }
 
     .fourIMG {
-        width:750px;
+        width: 750px;
     }
-    .youtubeIMG{
-        width:750px;
+
+    .youtubeIMG {
+        width: 750px;
+    }
+
+    #COVID-19 {
+        width: 750px;
+        margin: auto;
+        margin-bottom: auto;
+        margin-bottom: 70px;
+
     }
 }

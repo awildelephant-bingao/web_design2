@@ -367,6 +367,10 @@ main {
             font-size:20px;
         }
 
+        .last-section{
+            margin-bottom: 60px;
+        }
+
     }
 
     @media(min-width: 1280px) {
@@ -381,4 +385,15 @@ main {
             justify-content: space-between;
             margin-left:200px;
         }
+
+        .content h1 {
+            margin-top: 70px;
+            margin-bottom: 50px;
+    
+        }
+
+        .last-section{
+            margin-bottom: 70px;
+        }
+
     }
