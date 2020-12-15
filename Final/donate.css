@@ -561,7 +561,7 @@ button:hover {
     
     .firstlabel{
         position: relative;
-        color:black;
+        color:#555;
         text-transform: capitalize;
         font-size:14px;
         left:203px;
@@ -570,7 +570,7 @@ button:hover {
     
     .lastlabel {
             position: relative;
-            color:black;
+            color:#555;
             text-transform: capitalize;
             font-size:14px;
             left:219px;
