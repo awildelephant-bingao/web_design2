@@ -53,6 +53,8 @@ nav ul li {
     margin: 20px;
     padding-bottom: 20px;
     font-size: 20px;
+    margin-right: 27px;
+margin-left: 10px;
     
 }
 
@@ -263,7 +265,7 @@ form {
 .SecurityCode {
         position:relative;
         left:100px;
-        top:-3px;
+        top:-37px;
         line-height:30px;
         width:50px;
         border-radius:6px;
@@ -543,6 +545,13 @@ button:hover {
             color:#555;
         }
     
+ #name{
+     height:55px;
+ }
+    #Security{
+        margin-left:350px;
+        margin-bottom: -40px;
+    }
     .firstlabel{
         position: relative;
         color:black;
@@ -651,6 +660,7 @@ button:hover {
         padding:0 22px;
         font-size:16px;
         color:#555;
+        margin-left: 200px;
     }
     
     .option{
@@ -741,7 +751,7 @@ button:hover {
     .flex {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: end;
     
     }
 }
@@ -751,6 +761,12 @@ button:hover {
     nav ul li a {
         font: 35px Arial, sans-serif;
         
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left:200px;
     }
 }
     

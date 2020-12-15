@@ -53,6 +53,8 @@ nav ul li {
     margin: 20px;
     padding-bottom: 20px;
     font-size: 20px;
+    margin-right: 27px;
+margin-left: 10px;
 }
 
 nav ul li a {
@@ -112,6 +114,7 @@ nav ul li img {
 
 
 .fourIMG {
+    display:none;
     width:300px;
     margin: auto;
 }
@@ -311,8 +314,7 @@ nav ul li img {
     .flex {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-
+        justify-content: end;
     }
 
     .flex-container {
@@ -322,6 +324,7 @@ nav ul li img {
 
     
     .fourIMG {
+        display:initial;
      width: 750px;
     margin: auto;
     }
@@ -377,5 +380,19 @@ nav ul li img {
     nav ul li a {
         font: 35px Arial, sans-serif;
         
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left:200px;
+    }
+
+    .fourIMG{
+        width:1240px;
+    }
+    .youtubeIMG{
+        width:1240px;
     }
 }
