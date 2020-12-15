@@ -12,6 +12,7 @@ body {
 img.nav-logo {
     
     width: 150px;
+    margin-left:-5px;
 }
 
 img.toggle-img {
@@ -44,6 +45,7 @@ nav ul {
     position: fixed;
     background-color:#DF802B;
     width: 100%;
+    z-index: 10;
 }
 
 nav ul li {
@@ -68,6 +70,7 @@ nav ul li img {
     display: flex;
     flex-direction: row;
     justify-content: left;
+    margin-left: -6px;
 }
 
 .Socialmedia img {
