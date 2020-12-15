@@ -263,11 +263,11 @@ nav ul li img {
     }
 
     .Socialmedia img {
-    width:100%;
-    width:30px;
-    margin-left:15px;
-    margin-top:-10px;
-    }
+        width:100%;
+        width:30px;
+        margin-left:15px;
+        margin-top:-26.5px;
+        }
 
     #carousel img {
         margin-top:35px;
@@ -276,19 +276,20 @@ nav ul li img {
     .firstP{
         width: 100%;
         margin: auto;
-        margin-bottom:50px;
+        margin-bottom:70px;
+        width:750px;
     }
 
     .secondP{
-        width: 100%;
+        width:750px;
         margin: auto;
         margin-top:40px;
         margin-bottom:60px;
     }
 
     #HOLA{
-        margin-top:60px;
-        margin-bottom:80px;
+        margin-top: 50px;
+margin-bottom: 65px;
         font-size:50px;
     }
 
@@ -299,13 +300,13 @@ nav ul li img {
 
     #COVID-19 {
         margin-top:20px;
-        margin-bottom:80px;
+        margin-bottom:70px;
         font-size:50px;
         line-height: 80px;;
     }
 
     #FACES {
-        margin-top:10px;
+        margin-top:20px;
         margin-bottom:60px;
         font-size:50px;
     }
@@ -368,13 +369,14 @@ nav ul li img {
 
 @media(min-width: 1280px) {
     .photowall {
-        width:1240px;
+        width:750px;
         margin:auto;
         margin-bottom: 50px;
     }
 
     .photowall img{
         width:100%;
+        margin-bottom:30px;
     }
 
     nav ul li a {
@@ -389,10 +391,10 @@ nav ul li img {
         margin-left:200px;
     }
 
-    .fourIMG{
-        width:1240px;
+    .fourIMG {
+        width:750px;
     }
     .youtubeIMG{
-        width:1240px;
+        width:750px;
     }
 }
